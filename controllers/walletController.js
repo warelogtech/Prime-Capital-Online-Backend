@@ -700,3 +700,26 @@ export const resetWallet = async (req, res) => {
   }
 };
 
+// GET /api/wallet/account-name/:acct_no
+export const getAccountName = async (req, res) => {
+  try {
+    const { acct_no } = req.params;
+
+    // Search for the wallet based on the account number
+    const wallet = await Wallet.findOne({ acct_no });
+
+    if (!wallet) {
+      return res.status(404).json({ message: "Account not found" });
+    }
+
+    // Send the name as part of the response
+    return res.status(200).json({
+      message: "Account name retrieved successfully",
+      data: { acct_no, name: wallet.name }
+    });
+
+  } catch (error) {
+    console.error("❌ Error fetching account name:", error);
+    return res.status(500).json({ message: "Error fetching account name", error: error.message });
+  }
+};

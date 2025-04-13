@@ -9,7 +9,8 @@ import {
   getTransactionHistory,
   getAllWalletTransactions,
   verifyPaymentAndCreditWallet,
-  getTransferCode
+  getTransferCode,
+  getAccountName
 } from '../controllers/walletController.js';
 import { initializePayment } from '../services/initializePayment.js';
 
@@ -85,6 +86,8 @@ router.get('/credit-wallet', getAllWalletTransactions);
 router.post('/loan-repay', repayLoan);
 
 router.get("/wallet/transfer-code/:acct_no", getTransferCode);
+
+router.get('/wallet/account-name/:acct_no', getAccountName);
 
 // Route to reset the wallet balance (for testing or other purposes)
 router.post('/reset-wallet', resetWallet);
