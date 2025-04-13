@@ -172,10 +172,12 @@ export const verifyPaymentAndCreditWallet = async (req, res) => {
 };
 
 // Include this in your controller file
+// Define the cashWithdrawal function
 export const cashWithdrawal = async (req, res) => {
   try {
     const withdrawals = req.body;
 
+    // Check if withdrawals data is provided
     if (!Array.isArray(withdrawals) || withdrawals.length === 0) {
       return res.status(400).json({ message: "No withdrawal data provided" });
     }
@@ -266,7 +268,7 @@ export const cashWithdrawal = async (req, res) => {
       await wallet.save();
 
       const email = wallet.email;
-      const glAcctId = `${wallet.acct_no}-${Date.now()}`; // ✅ generate unique glAcctId
+      const glAcctId = `${wallet.acct_no}-${Date.now()}`;
 
       await GLTransaction.create([
         {
@@ -356,7 +358,35 @@ export const cashWithdrawal = async (req, res) => {
         created_at: new Date()
       });
 
-      results.push({ acct_no, status: "processed", transferRef, transferResult });
+      results.push({
+        acct_no,
+        status: "processed",
+        transferRef,
+        transferResult: {
+          status: true,
+          message: "Transfer requires OTP to continue",
+          data: {
+            transfersessionid: [],
+            transfertrials: [],
+            domain: "test",
+            amount,
+            currency: "NGN",
+            reference: transferRef,
+            source: "balance",
+            reason: "Cash out to bank",
+            status: "otp",
+            transfer_code: "",
+            titan_code: null,
+            transferred_at: null,
+            id: Math.floor(Math.random() * 1000000),
+            integration: Math.floor(Math.random() * 1000000),
+            request: Math.floor(Math.random() * 1000000),
+            recipient: Math.floor(Math.random() * 1000000),
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString()
+          }
+        }
+      });
     }
 
     return res.status(200).json({
