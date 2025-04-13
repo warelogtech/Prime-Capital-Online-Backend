@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 
 const externalCreditSchema = new mongoose.Schema({
-  reference: { type: String, required: true, unique: true },
+  reference: { type: String, required: true },
   acct_no: { type: String, required: true },
   wallet_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Wallet', required: true },
   name: String,

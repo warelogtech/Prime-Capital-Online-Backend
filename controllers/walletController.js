@@ -9,6 +9,8 @@ import Counter from '../models/Counter.js';
 import DisbursedLoan from '../models/DisbursedLoan.js';
 import Withdrawal from '../models/CashWithdrawal.js';
 import ExternalCredit from '../models/ExternalCredit.js';
+import { transferCodeStore } from '../store.js';
+
 import https from 'https';
 import dotenv from 'dotenv';
 dotenv.config();
@@ -171,13 +173,31 @@ export const verifyPaymentAndCreditWallet = async (req, res) => {
   });
 };
 
-// Include this in your controller file
-// Define the cashWithdrawal function
+
+
+// Simulate the generation of a transfer code during a cash withdrawal
+// Simulate the generation of a transfer code during a cash withdrawal
+const simulateWithdrawal = (acct_no, amount) => {
+  const transfer_code = `TRF-${Math.floor(Math.random() * 1000000)}`;
+  const reference = `REF-${Math.floor(Math.random() * 1000000)}`;
+  const createdAt = new Date().toISOString();
+
+  transferCodeStore[acct_no] = {
+    transfer_code,
+    reference,
+    createdAt,
+    amount,
+  };
+
+  console.log(`✅ Simulated transfer code for ${acct_no}:`, transferCodeStore[acct_no]);
+  return { transfer_code, reference, createdAt };
+};
+
+// Cash withdrawal processing
 export const cashWithdrawal = async (req, res) => {
   try {
     const withdrawals = req.body;
 
-    // Check if withdrawals data is provided
     if (!Array.isArray(withdrawals) || withdrawals.length === 0) {
       return res.status(400).json({ message: "No withdrawal data provided" });
     }
@@ -301,54 +321,14 @@ export const cashWithdrawal = async (req, res) => {
         }
       ]);
 
-      const transferRef = uuidv4();
-
-      let transferResult;
-      try {
-        const transferPayload = JSON.stringify({
-          source: "balance",
-          amount: amount * 100,
-          recipient: recipient_code,
-          reason: description || 'Wallet withdrawal',
-          reference: transferRef
-        });
-
-        transferResult = await new Promise((resolve, reject) => {
-          const transferOptions = {
-            hostname: 'api.paystack.co',
-            port: 443,
-            path: '/transfer',
-            method: 'POST',
-            headers: {
-              Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}`,
-              'Content-Type': 'application/json'
-            }
-          };
-
-          const reqTransfer = https.request(transferOptions, resTransfer => {
-            let data = '';
-            resTransfer.on('data', chunk => data += chunk);
-            resTransfer.on('end', () => {
-              const result = JSON.parse(data);
-              result.status ? resolve(result) : reject(new Error(result.message));
-            });
-          });
-
-          reqTransfer.on('error', reject);
-          reqTransfer.write(transferPayload);
-          reqTransfer.end();
-        });
-      } catch (transferError) {
-        results.push({ acct_no, status: "failed", message: `Transfer error: ${transferError.message}` });
-        continue;
-      }
+      const { transfer_code, reference, createdAt } = simulateWithdrawal(acct_no, amount);
 
       await Withdrawal.create({
         acct_no,
         wallet_id: wallet._id,
         amount,
         status: 'processed',
-        reference: transferRef,
+        reference,
         description,
         bank_code,
         account_number,
@@ -361,7 +341,7 @@ export const cashWithdrawal = async (req, res) => {
       results.push({
         acct_no,
         status: "processed",
-        transferRef,
+        transferRef: reference,
         transferResult: {
           status: true,
           message: "Transfer requires OTP to continue",
@@ -371,18 +351,18 @@ export const cashWithdrawal = async (req, res) => {
             domain: "test",
             amount,
             currency: "NGN",
-            reference: transferRef,
+            reference,
             source: "balance",
             reason: "Cash out to bank",
             status: "otp",
-            transfer_code: "",
+            transfer_code,
             titan_code: null,
             transferred_at: null,
             id: Math.floor(Math.random() * 1000000),
             integration: Math.floor(Math.random() * 1000000),
             request: Math.floor(Math.random() * 1000000),
             recipient: Math.floor(Math.random() * 1000000),
-            createdAt: new Date().toISOString(),
+            createdAt,
             updatedAt: new Date().toISOString()
           }
         }
@@ -399,6 +379,25 @@ export const cashWithdrawal = async (req, res) => {
     return res.status(500).json({ message: "Withdrawal failed", error: error.message });
   }
 };
+
+// GET /api/wallet/transfer-code/:acct_no
+export const getTransferCode = (req, res) => {
+  const { acct_no } = req.params;
+
+  const transferData = transferCodeStore[acct_no];
+  if (!acct_no || !transferData) {
+    console.log(`❌ Transfer code not found for ${acct_no}`);
+    return res.status(404).json({ message: "Transfer code not found for this account." });
+  }
+
+  const { transfer_code, reference, createdAt } = transferData;
+
+  return res.status(200).json({
+    message: "Transfer code retrieved successfully",
+    data: { acct_no, transfer_code, reference, createdAt }
+  });
+};
+
 
 // Utility function (reusable)
 export const disburseWallet = async ({ acct_no, amount, description, interestRate = 0.15, repaymentPeriod = 14 }) => {
@@ -700,3 +699,4 @@ export const resetWallet = async (req, res) => {
     res.status(500).json({ message: "Server error", error: error.message });
   }
 };
+
