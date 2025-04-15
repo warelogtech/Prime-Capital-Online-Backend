@@ -167,3 +167,109 @@ export const deleteUser = async (req, res) => {
     res.status(500).json({ message: "Server error", error: error.message });
   }
 };
+
+
+// Send OTP for password reset
+export const sendResetOtp = async (req, res) => {
+  try {
+    const { phoneNumber } = req.body;
+
+    if (!phoneNumber) {
+      return res.status(400).json({ message: "Phone number is required." });
+    }
+
+    const formattedPhoneNumber = phoneNumber.startsWith('+') ? phoneNumber : `+${phoneNumber}`;
+    const user = await User.findOne({ phoneNumber: formattedPhoneNumber });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found." });
+    }
+
+    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    const expiry = new Date(Date.now() + 5 * 60 * 1000);
+
+    await Otp.deleteMany({ user: user._id });
+
+    const newOtp = new Otp({
+      user: user._id,
+      otp,
+      expiresAt: expiry,
+    });
+
+    await newOtp.save();
+    const otpSent = await sendOTP(user.phoneNumber, otp);
+
+    if (!otpSent) {
+      return res.status(500).json({ message: "Failed to send OTP" });
+    }
+
+    res.status(200).json({ message: "OTP sent successfully" });
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error: error.message });
+  }
+};
+
+// Verify OTP
+export const verifyResetOtp = async (req, res) => {
+  try {
+    const { phoneNumber, otp } = req.body;
+
+    if (!phoneNumber || !otp) {
+      return res.status(400).json({ message: "Phone number and OTP are required." });
+    }
+
+    const formattedPhoneNumber = phoneNumber.startsWith('+') ? phoneNumber : `+${phoneNumber}`;
+    const user = await User.findOne({ phoneNumber: formattedPhoneNumber });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found." });
+    }
+
+    const existingOtp = await Otp.findOne({ user: user._id, otp });
+    if (!existingOtp) {
+      return res.status(400).json({ message: "Invalid OTP." });
+    }
+
+    if (existingOtp.expiresAt < new Date()) {
+      return res.status(400).json({ message: "OTP has expired." });
+    }
+
+    res.status(200).json({ message: "OTP verified. You can now reset your password." });
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error: error.message });
+  }
+};
+
+
+// Reset password (after OTP is verified)
+export const resetPassword = async (req, res) => {
+  try {
+    const { phoneNumber, newPassword, verifyNewPassword } = req.body;
+
+    if (!phoneNumber || !newPassword || !verifyNewPassword) {
+      return res.status(400).json({ message: "All fields are required." });
+    }
+
+    if (newPassword !== verifyNewPassword) {
+      return res.status(400).json({ message: "Passwords do not match." });
+    }
+
+    const formattedPhoneNumber = phoneNumber.startsWith('+') ? phoneNumber : `+${phoneNumber}`;
+    const user = await User.findOne({ phoneNumber: formattedPhoneNumber });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found." });
+    }
+
+    const hashedPassword = await bcrypt.hash(newPassword, 12);
+    user.password = hashedPassword;
+    await user.save();
+
+    // Optional: delete all OTPs for user after successful reset
+    await Otp.deleteMany({ user: user._id });
+
+    res.status(200).json({ message: "Password successfully reset. You can now login." });
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error: error.message });
+  }
+};

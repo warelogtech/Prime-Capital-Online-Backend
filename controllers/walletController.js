@@ -176,7 +176,6 @@ export const verifyPaymentAndCreditWallet = async (req, res) => {
 
 
 // Simulate the generation of a transfer code during a cash withdrawal
-// Simulate the generation of a transfer code during a cash withdrawal
 const simulateWithdrawal = (acct_no, amount) => {
   const transfer_code = `TRF-${Math.floor(Math.random() * 1000000)}`;
   const reference = `REF-${Math.floor(Math.random() * 1000000)}`;

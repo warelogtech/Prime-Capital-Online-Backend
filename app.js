@@ -10,7 +10,9 @@ import purchaseRequestRoutes from './routes/purchaseRequestRoutes.js';
 import paystackRoutes from './routes/paystackRoutes.js';
 import webhook from './webhook.js';
 import transferRoutes from './routes/transferRoutes.js';
-import externalCreditRoutes from './routes/externalCreditRoutes.js'
+import externalCreditRoutes from './routes/externalCreditRoutes.js';
+import loanRepaymentRoutes from './routes/loanRepayment.js';
+import './cronjobs/autoLoanRepayment.js';  
 
 
 
@@ -32,6 +34,7 @@ app.use('/api/paystack', paystackRoutes);
 app.use('/api', webhook);
 app.use('/api/transfer', transferRoutes);
 app.use('/api/external', externalCreditRoutes);
+app.use('/api', loanRepaymentRoutes);
 
 
 // Correct export statement
