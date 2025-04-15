@@ -13,6 +13,7 @@ import transferRoutes from './routes/transferRoutes.js';
 import externalCreditRoutes from './routes/externalCreditRoutes.js';
 import loanRepaymentRoutes from './routes/loanRepayment.js';
 import './cronjobs/autoLoanRepayment.js';  
+import locationRoutes from './routes/locationRoutes.js';
 
 
 
@@ -35,6 +36,7 @@ app.use('/api', webhook);
 app.use('/api/transfer', transferRoutes);
 app.use('/api/external', externalCreditRoutes);
 app.use('/api', loanRepaymentRoutes);
+app.use('/api/locations', locationRoutes);
 
 
 // Correct export statement
