@@ -17,21 +17,22 @@ export const registerUser = async (req, res) => {
       password,
       email,
       address,
-      vehicleNumber,
       guarantorContacts,
-      event, // Assuming this is part of the request body for the identification
-      customerCode, // Assuming this is part of the request body for the identification
-      identificationDetails, // Assuming this is part of the request body for identification details like BVN, account number, etc.
+      event,
+      customerCode,
+      identificationDetails,
     } = req.body;
 
-    const formattedPhoneNumber = phoneNumber.startsWith('+') ? phoneNumber : `+${phoneNumber}`;
+    const formattedPhoneNumber = phoneNumber.startsWith('+')
+      ? phoneNumber
+      : `+${phoneNumber}`;
 
     const existingUser = await User.findOne({ phoneNumber: formattedPhoneNumber });
     if (existingUser) {
       return res.status(400).json({ message: "User already registered" });
     }
 
-    if (!nin && !bvn) {
+    if (!nin && (!bvn || bvn.trim() === '')) {
       return res.status(400).json({ message: "Either NIN or BVN is required" });
     }
 
@@ -43,28 +44,33 @@ export const registerUser = async (req, res) => {
 
     const hashedPassword = await bcrypt.hash(password, 12);
 
-    const newUser = new User({
+    // Construct user object conditionally
+    const userObj = {
       phoneNumber: formattedPhoneNumber,
       nin,
-      bvn,
       firstName,
       lastName,
       password: hashedPassword,
       email,
       address,
-      vehicleNumber,
       guarantorContacts,
-    });
+    };
 
+    if (bvn && bvn.trim() !== '') {
+      userObj.bvn = bvn;
+    }
+
+    const newUser = new User(userObj);
     await newUser.save();
 
-    // Log user data to check customer_id
-    console.log(newUser); // Ensure customer_id is populated
-
-    // Save customer identification details (Added after registration)
     if (event && customerCode && identificationDetails) {
-      console.log(event, customerCode, identificationDetails); // Ensure correct values
-      await saveCustomerIdentification(newUser.customer_id, customerCode, event, email, identificationDetails);
+      await saveCustomerIdentification(
+        newUser._id,
+        customerCode,
+        event,
+        email,
+        identificationDetails
+      );
     }
 
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
@@ -77,6 +83,7 @@ export const registerUser = async (req, res) => {
       otp,
       expiresAt: expiry,
     });
+
     await newOtp.save();
 
     const otpSent = await sendOTP(newUser.phoneNumber, otp);
@@ -88,13 +95,12 @@ export const registerUser = async (req, res) => {
       ...newUser.toObject(),
       createdAt: moment(newUser.createdAt).format("DD-MM-YYYY[T]hh:mm:ss a"),
       updatedAt: moment(newUser.updatedAt).format("DD-MM-YYYY[T]hh:mm:ss a"),
-      customer_id: newUser.customer_id, // Ensure it's a number
     };
 
     res.status(200).json({
       message: "User registered successfully. OTP sent. Please verify to complete registration.",
       user: formattedUser,
-      otp, // Remove in production
+      otp, // ⚠️ Remove in production
     });
   } catch (error) {
     res.status(500).json({ message: "Server error", error: error.message });
@@ -105,14 +111,16 @@ export const registerUser = async (req, res) => {
 // The function to save customer identification details after registration
 export const saveCustomerIdentification = async (customerId, customerCode, event, email, identificationDetails) => {
   try {
-    console.log('Saving customer identification:', { customerId, customerCode, event, email, identificationDetails }); // Log the data
+    if (!event || !customerCode || !identificationDetails) {
+      throw new Error('Missing identification data');
+    }
 
     const customerIdentification = new CustomerIdentification({
-      event, 
+      event,
       customer_id: customerId,
       customer_code: customerCode,
       email: email,
-      identification: identificationDetails, // e.g., BVN, account number, bank code
+      identification: identificationDetails,
     });
 
     await customerIdentification.save();
@@ -121,8 +129,6 @@ export const saveCustomerIdentification = async (customerId, customerCode, event
     console.error('Error saving customer identification:', error.message);
   }
 };
-
-
 
 // Get all users
 export const getUsers = async (req, res) => {
@@ -167,7 +173,6 @@ export const deleteUser = async (req, res) => {
     res.status(500).json({ message: "Server error", error: error.message });
   }
 };
-
 
 // Send OTP for password reset
 export const sendResetOtp = async (req, res) => {
@@ -240,7 +245,6 @@ export const verifyResetOtp = async (req, res) => {
   }
 };
 
-
 // Reset password (after OTP is verified)
 export const resetPassword = async (req, res) => {
   try {
@@ -269,6 +273,49 @@ export const resetPassword = async (req, res) => {
     await Otp.deleteMany({ user: user._id });
 
     res.status(200).json({ message: "Password successfully reset. You can now login." });
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error: error.message });
+  }
+};
+
+// controllers/userController.js
+
+// Update User Role
+export const updateUserRole = async (req, res) => {
+  const { customerId } = req.params; // Changed from userId to customerId
+  const { newRole } = req.body;
+
+  try {
+    const user = await User.findOne({ customer_id: customerId }); // Use customer_id instead of _id
+    if (user) {
+      user.userType = newRole;
+      await user.save();
+      res.status(200).send('User role updated successfully');
+    } else {
+      res.status(404).send('User not found');
+    }
+  } catch (error) {
+    res.status(500).send('Error updating user role');
+  }
+};
+
+// Get user by phone number
+export const getUserByPhoneNumber = async (req, res) => {
+  try {
+    const { phoneNumber } = req.params;
+
+    // Format the phone number if it does not start with a '+'
+    const formattedPhoneNumber = phoneNumber.startsWith('+') ? phoneNumber : `+${phoneNumber}`;
+
+    // Look for the user in the database
+    const user = await User.findOne({ phoneNumber: formattedPhoneNumber });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // Send user data as a response
+    res.status(200).json({ user });
   } catch (error) {
     res.status(500).json({ message: "Server error", error: error.message });
   }

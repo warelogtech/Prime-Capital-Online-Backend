@@ -14,14 +14,19 @@ import externalCreditRoutes from './routes/externalCreditRoutes.js';
 import loanRepaymentRoutes from './routes/loanRepayment.js';
 import './cronjobs/autoLoanRepayment.js';  
 import locationRoutes from './routes/locationRoutes.js';
-
-
+import logger from './logger/logger.js'; // Import the logger
 
 dotenv.config();
 
 const app = express();
 
-// Middleware
+// Middleware to log incoming requests
+app.use((req, res, next) => {
+  logger.info(`${req.method} ${req.url} - ${req.ip}`);
+  next();
+});
+
+// Middleware for parsing JSON and enabling CORS
 app.use(express.json());
 app.use(cors());
 
@@ -37,7 +42,6 @@ app.use('/api/transfer', transferRoutes);
 app.use('/api/external', externalCreditRoutes);
 app.use('/api', loanRepaymentRoutes);
 app.use('/api/locations', locationRoutes);
-
 
 // Correct export statement
 export default app;

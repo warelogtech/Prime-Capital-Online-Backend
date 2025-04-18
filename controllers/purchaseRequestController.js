@@ -16,11 +16,12 @@ export const createPurchaseRequest = async (req, res) => {
       businessName,
       businessAddress,
       purchaseItem,
+      vehicleNumber,
       amount,
       comment
     } = req.body;
 
-    if (!driverId || !phoneNumber || !requestType || !vendorName || !vendorContacts || !businessName || !businessAddress || !purchaseItem || !amount ||!comment) {
+    if (!driverId || !phoneNumber || !requestType || !vendorName || !vendorContacts || !businessName || !businessAddress || !purchaseItem ||!vehicleNumber|| !amount ||!comment) {
       return res.status(400).json({ message: 'All fields are required' });
     }
 
@@ -33,6 +34,7 @@ export const createPurchaseRequest = async (req, res) => {
       businessName,
       businessAddress,
       purchaseItem,
+      vehicleNumber,
       amount,
       comment
     });

@@ -1,0 +1,23 @@
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-18T09:05:36.220Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T09:05:44.307Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T09:05:44.318Z"}
+{"level":"info","message":"GET /api/USERS - ::1","timestamp":"2025-04-18T09:06:41.222Z"}
+{"level":"info","message":"POST /api/login - ::1","timestamp":"2025-04-18T09:07:33.312Z"}
+{"level":"info","message":"POST /api/trigger-loan-repayment - ::1","timestamp":"2025-04-18T09:20:50.641Z"}
+{"level":"info","message":"POST /api/register - ::1","timestamp":"2025-04-18T09:26:35.643Z"}
+{"level":"info","message":"POST /api/register - ::1","timestamp":"2025-04-18T09:27:01.823Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-18T09:39:36.822Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T09:39:46.031Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T09:39:46.037Z"}
+{"level":"info","message":"POST /api/register - ::1","timestamp":"2025-04-18T09:40:40.200Z"}
+{"level":"info","message":"POST /api/verify-otp - ::1","timestamp":"2025-04-18T09:41:56.200Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-18T09:57:05.384Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T09:57:13.252Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T09:57:13.265Z"}
+{"level":"info","message":"POST /api/verify-otp - ::1","timestamp":"2025-04-18T09:57:21.475Z"}
+{"level":"info","message":"POST /api/login - ::1","timestamp":"2025-04-18T09:57:53.359Z"}
+{"level":"info","message":"GET /api/USERS - ::1","timestamp":"2025-04-18T10:04:56.881Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-18T10:09:30.206Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T10:09:35.922Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T10:09:35.941Z"}
+{"level":"info","message":"GET /api/+2348148818612 - ::1","timestamp":"2025-04-18T10:11:36.951Z"}
