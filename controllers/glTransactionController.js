@@ -10,26 +10,23 @@ export const createGLTransaction = async (req, res) => {
       glAcctNo,
       txnType,
       amount,
-      acct_no, // used to find wallet
+      acct_no,
       description,
       createdBy,
     } = req.body;
 
-    //  Validate GL Account Number (13-digit)
     if (!/^\d{13}$/.test(glAcctNo)) {
       return res.status(400).json({
         message: 'GL Account Number must be a 13-digit number.',
       });
     }
 
-    //  Validate transaction type
     if (!['CR', 'DR'].includes(txnType)) {
       return res.status(400).json({
         message: 'Transaction type must be either "CR" or "DR".',
       });
     }
 
-    // Validate amount
     const numericAmount = parseFloat(amount);
     if (isNaN(numericAmount) || numericAmount <= 0) {
       return res.status(400).json({
@@ -37,45 +34,40 @@ export const createGLTransaction = async (req, res) => {
       });
     }
 
-    // Find wallet using acct_no
     const wallet = await Wallet.findOne({ acct_no });
-
-    // If wallet not found, return error
     if (!wallet) {
       return res.status(404).json({
         message: 'Associated wallet not found',
       });
     }
 
-    // Retrieve the name of the customer from the wallet (fallback if missing)
     const name = wallet.name || 'Unnamed Wallet Holder';
 
-    //  Generate txnId using counter
     const counter = await Counter.findByIdAndUpdate(
       { _id: 'txnId' },
       { $inc: { seq: 1 } },
       { new: true, upsert: true }
     );
-
     const txnId = counter.seq;
 
-    //  Create and save GL Transaction
     const transaction = new GLTransaction({
       txnId,
-      glAcctId,
+      glAcctId: glAcctId || `${glAcctNo}-${txnId}`,
       glAcctNo,
-      name,  // Now safely added
+      name,
       txnType,
       amount: mongoose.Types.Decimal128.fromString(numericAmount.toString()),
       acct_no,
       wallet_id: wallet._id,
       description,
       createdBy: createdBy || 'system',
+      email: wallet.email,
+      phoneNumber: wallet.phoneNumber,
+      customer_id: wallet.customer_id,
     });
 
     await transaction.save();
 
-    // Update wallet balances and transaction history
     if (txnType === 'CR') {
       wallet.walletBalance += numericAmount;
       wallet.transactions.push({
@@ -94,11 +86,9 @@ export const createGLTransaction = async (req, res) => {
       });
     }
 
-    //  Update netBalance
     wallet.netBalance = wallet.walletBalance - wallet.loanBalance;
     await wallet.save();
 
-    //  Final response
     return res.status(201).json({
       message: 'GL Transaction created successfully',
       transaction,
@@ -111,7 +101,6 @@ export const createGLTransaction = async (req, res) => {
     });
   }
 };
-
 
 // Default GET - fetch all transactions
 export const getAllGLTransactions = async (req, res) => {

@@ -21,3 +21,758 @@
 {"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T10:09:35.922Z"}
 {"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T10:09:35.941Z"}
 {"level":"info","message":"GET /api/+2348148818612 - ::1","timestamp":"2025-04-18T10:11:36.951Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-18T10:11:54.093Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T10:11:59.627Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T10:11:59.648Z"}
+{"level":"info","message":"GET /api/+2348148818612 - ::1","timestamp":"2025-04-18T10:12:05.323Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:13:06.560Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:17:59.636Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:23:55.606Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:36:14.742Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:36:32.173Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:40:20.776Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:44:50.933Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:45:31.669Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:46:32.180Z"}
+{"level":"info","message":"GET /api/USERS - ::1","timestamp":"2025-04-18T10:48:41.327Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:49:20.454Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:51:13.277Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:55:06.767Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T10:59:55.114Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T11:12:27.742Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-18T12:43:28.330Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T12:43:33.420Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T12:43:33.433Z"}
+{"level":"info","message":"POST /api/login - ::1","timestamp":"2025-04-18T12:43:38.683Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T13:08:06.351Z"}
+{"level":"info","message":"GET /api/users/+2348068526093 - ::1","timestamp":"2025-04-18T13:17:42.808Z"}
+{"level":"info","message":"GET /api/users/+2347035708817 - ::1","timestamp":"2025-04-18T13:20:49.607Z"}
+{"level":"info","message":"GET /api/users/+2348068526093 - ::1","timestamp":"2025-04-18T13:23:00.280Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T13:24:24.808Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T13:29:24.305Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::1","timestamp":"2025-04-18T13:54:46.315Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-18T17:28:08.916Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-18T17:28:14.636Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-18T17:28:14.640Z"}
+{"level":"info","message":"POST /api/login - ::1","timestamp":"2025-04-18T17:29:12.809Z"}
+{"level":"info","message":"GET /api/users/+2348068526093 - ::1","timestamp":"2025-04-18T17:30:32.539Z"}
+{"level":"info","message":"GET /api/users/+2348068526093 - ::ffff:127.0.0.1","timestamp":"2025-04-18T17:33:07.136Z"}
+{"level":"info","message":"GET /api/users/+2348148818612 - ::ffff:127.0.0.1","timestamp":"2025-04-18T17:34:43.073Z"}
+{"level":"info","message":"GET /api/users/+2348068526093 - ::ffff:127.0.0.1","timestamp":"2025-04-18T17:39:25.772Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-21T17:39:22.137Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-21T17:39:27.419Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-21T17:39:27.426Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-21T18:13:16.943Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-21T18:13:22.352Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-21T18:13:22.371Z"}
+{"level":"info","message":"GET /api/purchase-requests/2348012345678 - ::1","timestamp":"2025-04-21T19:12:05.033Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-21T19:12:48.386Z"}
+{"level":"info","message":"GET /api/purchase-requests/ - ::1","timestamp":"2025-04-21T19:29:56.284Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T12:01:46.644Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T12:01:58.810Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T12:01:58.832Z"}
+{"level":"info","message":"GET /api/purchase-requests/++2347035708817 - ::1","timestamp":"2025-04-22T12:02:25.066Z"}
+{"level":"info","message":"GET /api/purchase-requests/++2347035708817 - ::1","timestamp":"2025-04-22T12:02:28.045Z"}
+{"level":"info","message":"GET /api/purchase-requests/++2347035708817 - ::1","timestamp":"2025-04-22T12:03:27.240Z"}
+{"level":"info","message":"GET /api/purchase-requests/++2347035708817 - ::1","timestamp":"2025-04-22T12:05:18.836Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:05:37.581Z"}
+{"level":"info","message":"GET /api/purchase-requests/++2347035708817 - ::1","timestamp":"2025-04-22T12:07:25.250Z"}
+{"level":"info","message":"GET /api/purchase-requests/++2347035708817 - ::1","timestamp":"2025-04-22T12:09:24.746Z"}
+{"level":"info","message":"GET /api/purchase-requests/++2347035708817 - ::1","timestamp":"2025-04-22T12:09:28.306Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:13:36.519Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:13:37.954Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:15:09.287Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:15:09.808Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:16:08.172Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:16:08.469Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:18:25.172Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:18:25.813Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:20:35.136Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:21:07.850Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:23:54.387Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:24:45.578Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:24:54.386Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:25:07.612Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T12:28:06.092Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T13:05:15.950Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T13:16:06.612Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T13:27:09.868Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T13:27:15.093Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T13:27:15.099Z"}
+{"level":"info","message":"POST /api/purchase-requests/purchase - ::1","timestamp":"2025-04-22T13:56:02.612Z"}
+{"level":"info","message":"POST /api/purchase-requests/purchase - ::1","timestamp":"2025-04-22T13:57:53.132Z"}
+{"level":"info","message":"POST /api/purchase-requests/purchase - ::1","timestamp":"2025-04-22T15:11:30.988Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:13:16.715Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:13:24.779Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:13:29.075Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:13:44.391Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:13:51.591Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/2347035708817/status - ::1","timestamp":"2025-04-22T15:14:36.613Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:14:50.856Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:14:57.234Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:15:03.235Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:15:44.564Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:45.293Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:47.659Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:53.804Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:54.611Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:54.883Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:55.130Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:55.450Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:17:56.587Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:19:09.259Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T15:24:59.903Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T15:25:10.688Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T15:25:10.698Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:25:18.363Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:25:32.070Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:25:36.045Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:25:38.340Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:25:41.748Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:25:48.485Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:26:17.973Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:28:51.324Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/2347035708817/status - ::1","timestamp":"2025-04-22T15:29:54.938Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:30:02.098Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:30:11.597Z"}
+{"level":"info","message":"GET /api/purchase-requests/ - ::1","timestamp":"2025-04-22T15:31:24.252Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T15:43:11.042Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T15:43:16.923Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T15:43:16.945Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T15:44:08.256Z"}
+{"level":"info","message":"OPTIONS /api/purchase-requests/2347035708817/status - ::1","timestamp":"2025-04-22T15:46:00.726Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/2347035708817/status - ::1","timestamp":"2025-04-22T15:46:00.729Z"}
+{"level":"info","message":"OPTIONS /api/purchase-requests/2347035708817/status - ::1","timestamp":"2025-04-22T15:46:36.996Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/2347035708817/status - ::1","timestamp":"2025-04-22T15:46:37.015Z"}
+{"level":"info","message":"OPTIONS /api/purchase-requests/680698582bdb904dc9aecb6c/status - ::1","timestamp":"2025-04-22T15:56:01.631Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/680698582bdb904dc9aecb6c/status - ::1","timestamp":"2025-04-22T15:56:01.634Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/680698582bdb904dc9aecb6c/status - ::1","timestamp":"2025-04-22T15:56:05.669Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T15:56:21.363Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T15:56:26.973Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T15:56:26.978Z"}
+{"level":"info","message":"OPTIONS /api/purchase-requests/680698582bdb904dc9aecb6c/status - ::1","timestamp":"2025-04-22T15:57:40.216Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/680698582bdb904dc9aecb6c/status - ::1","timestamp":"2025-04-22T15:57:40.228Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T16:00:42.874Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T16:00:48.423Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T16:00:48.444Z"}
+{"level":"info","message":"OPTIONS /api/purchase-requests/680698582bdb904dc9aecb6c/status - ::1","timestamp":"2025-04-22T16:01:05.040Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/680698582bdb904dc9aecb6c/status - ::1","timestamp":"2025-04-22T16:01:05.047Z"}
+{"level":"info","message":"GET /api/purchase-requests/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T16:06:54.829Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T16:09:20.426Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/67fcbe6abbaee382d0b9507e/status - ::1","timestamp":"2025-04-22T16:09:33.149Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/2347035708817/status - ::1","timestamp":"2025-04-22T16:11:31.699Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T16:12:13.749Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/status/+2347035708817 - ::1","timestamp":"2025-04-22T16:12:52.544Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T16:13:27.766Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/status/:67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T16:13:33.650Z"}
+{"level":"info","message":"PATCH /api/purchase-requests/status/+2347035708817 - ::1","timestamp":"2025-04-22T16:14:11.333Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/+2347035708817 - ::1","timestamp":"2025-04-22T16:15:34.899Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T17:52:40.830Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T17:53:21.827Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T17:53:26.860Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T17:53:26.879Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T17:53:50.528Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T17:54:35.632Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T17:56:02.956Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T17:56:08.454Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T17:56:08.461Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T17:56:24.632Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:03:22.178Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:03:27.891Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:03:27.912Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:03:35.770Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:03:39.831Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:07:20.946Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:07:26.663Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:07:26.684Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:07:40.642Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:11:59.861Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:12:06.278Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:12:06.298Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:12:28.639Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:13:34.600Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:15:34.485Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:15:40.216Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:15:40.235Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:16:20.060Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:18:44.630Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:18:50.107Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:18:50.125Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:19:06.863Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:19:17.905Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:21:08.606Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:21:13.873Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:21:13.892Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:21:24.040Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:23:43.136Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:23:48.877Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:23:48.900Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:23:54.795Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/67fcbe6abbaee382d0b9507e - ::1","timestamp":"2025-04-22T18:23:58.024Z"}
+{"level":"info","message":"GET /api/purchase-requests/+2347035708817 - ::1","timestamp":"2025-04-22T18:24:24.283Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T18:24:50.592Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:31:26.808Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:31:32.205Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:31:32.221Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T18:32:03.294Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:37:30.659Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:37:36.229Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:37:36.245Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T18:38:21.096Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T18:38:23.502Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T18:40:00.136Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:46:05.407Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:46:10.662Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:46:10.670Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T18:49:05.349Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T18:49:11.453Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T18:49:11.462Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T18:49:19.072Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T19:11:36.595Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T19:11:41.928Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T19:11:41.954Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T19:11:50.147Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-22T19:14:27.225Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-22T19:14:32.958Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-22T19:14:32.974Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T19:14:49.558Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-22T19:14:51.999Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-23T07:27:25.675Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680698582bdb904dc9aecb6c - ::1","timestamp":"2025-04-23T07:27:31.379Z"}
+{"level":"info","message":"POST /api/purchase-requests/purchase - ::1","timestamp":"2025-04-23T07:41:39.690Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T07:45:02.082Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T07:47:27.407Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T07:47:33.417Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T07:47:33.430Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T07:47:43.946Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:03:24.222Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:03:29.913Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:03:29.943Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:05:42.619Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:05:52.060Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:05:52.073Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T08:07:23.375Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:11:24.129Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:11:30.805Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:11:30.817Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T08:12:28.507Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:17:52.726Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:18:01.413Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:18:01.418Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T08:18:07.899Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:22:27.570Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:22:50.185Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:22:50.192Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:26:42.028Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:27:00.356Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:27:00.362Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T08:27:17.900Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T08:27:22.541Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:28:06.038Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:28:23.445Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:28:23.464Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T08:29:26.513Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T08:34:05.715Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T08:34:23.637Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T08:34:23.650Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T08:38:19.263Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T09:22:19.129Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T09:22:30.094Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T09:22:30.120Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T09:22:35.760Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T09:22:38.597Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T09:23:48.411Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T09:23:58.429Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T09:23:58.447Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T09:24:10.602Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T09:55:17.121Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T09:55:22.752Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T09:55:22.758Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T09:55:40.563Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T10:11:34.547Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T10:11:40.982Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T10:11:41.015Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T10:11:49.994Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T10:14:12.860Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T10:14:21.971Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T10:14:21.978Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T15:36:10.287Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T15:36:16.158Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T15:36:16.173Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T15:38:49.727Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T15:44:55.081Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T15:45:04.135Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T15:45:04.144Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T15:45:44.443Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T15:48:39.938Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T15:48:45.952Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T15:48:45.970Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T15:49:02.821Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T15:54:19.084Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T15:54:30.153Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T15:54:30.168Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T15:54:41.005Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T15:59:00.995Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T15:59:10.458Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T15:59:10.462Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T15:59:18.316Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T16:00:04.715Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T16:00:09.022Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/680899b39e272cd07f194f55 - ::1","timestamp":"2025-04-23T16:00:35.628Z"}
+{"level":"info","message":"POST /api/external/external-credit - ::1","timestamp":"2025-04-23T16:04:39.318Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T18:22:45.721Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T18:22:50.901Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T18:22:50.926Z"}
+{"level":"info","message":"POST /api/purchase-requests/purchase - ::1","timestamp":"2025-04-23T18:25:30.817Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f - ::1","timestamp":"2025-04-23T18:28:13.268Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T18:42:04.474Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T18:42:10.150Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T18:42:10.158Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:42:16.715Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T18:44:05.158Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T18:44:10.626Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T18:44:10.637Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:44:16.979Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:44:18.981Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T18:48:47.695Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T18:48:53.158Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T18:48:53.171Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:49:00.209Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:49:02.447Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:49:44.070Z"}
+{"level":"info","message":"GET /api/get-bank-code?bankName=NonExistentBank - ::1","timestamp":"2025-04-23T18:50:08.410Z"}
+{"level":"info","message":"GET /api/paystack/paystack/mobile-money-banks - ::1","timestamp":"2025-04-23T18:50:08.418Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:50:29.459Z"}
+{"level":"info","message":"GET /api/paystack/paystack/mobile-money-banks - ::1","timestamp":"2025-04-23T18:51:31.662Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T18:56:38.677Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T18:56:44.301Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T18:56:44.325Z"}
+{"level":"info","message":"GET /api/get-bank-code - ::1","timestamp":"2025-04-23T18:57:30.949Z"}
+{"level":"info","message":"GET /api/paystack/paystack/mobile-money-banks - ::1","timestamp":"2025-04-23T18:57:31.033Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f - ::1","timestamp":"2025-04-23T18:59:33.647Z"}
+{"level":"info","message":"GET /api/paystack/paystack/mobile-money-banks - ::1","timestamp":"2025-04-23T18:59:33.998Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-23T19:06:56.401Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-23T19:07:02.024Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-23T19:07:02.031Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f - ::1","timestamp":"2025-04-23T19:08:03.414Z"}
+{"level":"info","message":"GET /api/paystack/paystack/mobile-money-banks - ::1","timestamp":"2025-04-23T19:08:03.876Z"}
+{"level":"info","message":"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f - ::1","timestamp":"2025-04-23T19:10:06.240Z"}
+{"level":"info","message":"GET /api/paystack/paystack/mobile-money-banks - ::1","timestamp":"2025-04-23T19:10:06.567Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T07:30:29.335Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T07:30:40.090Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T07:30:40.104Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T10:06:18.425Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T10:06:31.592Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:10:06:43 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 500 95 \"-\" \"-\"","timestamp":"2025-04-24T10:06:43.089Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:10:06:43 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T10:06:43.108Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T10:33:04.002Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T10:33:11.118Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:10:33:14 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T10:33:14.356Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:10:33:14 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T10:33:14.361Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T10:42:03.454Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T10:42:14.676Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T10:42:14.683Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T11:15:27.214Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T11:15:33.596Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T11:15:33.606Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T11:23:02.822Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T11:23:03.872Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:11:23:07 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T11:23:07.512Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:11:23:07 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T11:23:07.520Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T11:29:30.999Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T11:29:39.292Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T11:29:39.304Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T11:30:14.577Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T11:30:18.362Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:11:30:19 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T11:30:19.903Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:11:30:19 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T11:30:19.909Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T12:28:33.499Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T12:28:49.012Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T12:28:49.019Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T12:29:49.221Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T12:29:50.312Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:12:29:52 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T12:29:52.318Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:12:29:52 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T12:29:52.322Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T13:21:02.176Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T13:21:07.789Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T13:21:07.794Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T13:24:20.920Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T13:24:22.630Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:13:24:23 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T13:24:23.786Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:13:24:23 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T13:24:23.791Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T14:40:00.220Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T14:40:06.336Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T14:40:06.351Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T14:42:39.392Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T14:42:47.425Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T14:42:47.441Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T14:43:57.174Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T14:43:57.944Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:14:43:59 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T14:43:59.870Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:14:43:59 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T14:43:59.877Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T14:44:04.705Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T14:44:05.193Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:14:44:06 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T14:44:06.336Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:14:44:06 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T14:44:06.339Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T14:53:34.281Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T14:53:45.166Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T14:53:45.185Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/6809309a67631c0d92878b6f","timestamp":"2025-04-24T14:54:21.772Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T14:54:22.874Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:14:54:29 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T14:54:29.906Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:14:54:29 +0000] \"PUT /api/purchase-requests/status/6809309a67631c0d92878b6f HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T14:54:29.911Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-04-24T15:15:25.921Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-04-24T15:15:33.540Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-04-24T15:15:33.558Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/purchase","timestamp":"2025-04-24T15:15:44.672Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:15:15:44 +0000] \"POST /api/purchase-requests/purchase HTTP/1.1\" 500 145 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T15:15:44.806Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/purchase","timestamp":"2025-04-24T15:16:30.619Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:15:16:31 +0000] \"POST /api/purchase-requests/purchase HTTP/1.1\" 201 525 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T15:16:31.008Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-04-24T15:16:50.777Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:15:16:50 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 200 1973 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T15:16:50.973Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/","timestamp":"2025-04-24T15:17:24.538Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:15:17:24 +0000] \"GET /api/purchase-requests/ HTTP/1.1\" 200 3286 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T15:17:24.783Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/status/680a55ce84585043f40d3ad1","timestamp":"2025-04-24T15:18:37.479Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-04-24T15:18:37.962Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:15:18:40 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 200 64626 \"-\" \"-\"","timestamp":"2025-04-24T15:18:40.196Z"}
+{"level":"info","message":"::1 - - [24/Apr/2025:15:18:40 +0000] \"PUT /api/purchase-requests/status/680a55ce84585043f40d3ad1 HTTP/1.1\" 500 29 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-24T15:18:40.200Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T13:53:08.696Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T13:53:19.115Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T13:53:19.119Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T14:37:44.838Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T14:37:51.311Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T14:37:51.323Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/register","timestamp":"2025-05-06T15:35:44.865Z"}
+{"level":"info","message":"::1 - - [06/May/2025:15:35:44 +0000] \"POST /api/register HTTP/1.1\" 500 1639 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T15:35:44.920Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T15:45:08.453Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T15:45:20.643Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T15:45:20.653Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/register","timestamp":"2025-05-06T15:45:54.644Z"}
+{"level":"info","message":"::1 - - [06/May/2025:15:45:54 +0000] \"POST /api/register HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T15:45:54.988Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/register","timestamp":"2025-05-06T15:46:22.658Z"}
+{"level":"info","message":"::1 - - [06/May/2025:15:46:23 +0000] \"POST /api/register HTTP/1.1\" 400 67 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T15:46:23.201Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/register","timestamp":"2025-05-06T15:50:39.829Z"}
+{"level":"info","message":"::1 - - [06/May/2025:15:50:40 +0000] \"POST /api/register HTTP/1.1\" 400 67 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T15:50:40.023Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T15:58:15.774Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T15:58:24.177Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T15:58:24.182Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/register","timestamp":"2025-05-06T15:58:59.520Z"}
+{"level":"info","message":"::1 - - [06/May/2025:15:59:00 +0000] \"POST /api/register HTTP/1.1\" 500 97 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T15:59:00.748Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/register","timestamp":"2025-05-06T15:59:43.466Z"}
+{"level":"info","message":"::1 - - [06/May/2025:15:59:46 +0000] \"POST /api/register HTTP/1.1\" 200 755 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T15:59:46.582Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/verify-otp","timestamp":"2025-05-06T16:00:53.907Z"}
+{"level":"info","message":"::1 - - [06/May/2025:16:00:54 +0000] \"POST /api/verify-otp HTTP/1.1\" 200 124 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T16:00:54.799Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T16:06:55.272Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T16:07:00.922Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T16:07:00.938Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/USERS","timestamp":"2025-05-06T16:09:54.329Z"}
+{"level":"info","message":"::1 - - [06/May/2025:16:09:54 +0000] \"GET /api/USERS HTTP/1.1\" 200 1782 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-05-06T16:09:54.520Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T17:53:59.184Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T17:54:04.324Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T17:54:04.340Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/USERS","timestamp":"2025-05-06T17:55:09.144Z"}
+{"level":"info","message":"::1 - - [06/May/2025:17:55:09 +0000] \"GET /api/USERS HTTP/1.1\" 200 1782 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T17:55:09.350Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/1","timestamp":"2025-05-06T18:00:08.549Z"}
+{"level":"info","message":"::1 - - [06/May/2025:18:00:08 +0000] \"PUT /api/users/1 HTTP/1.1\" 404 28 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T18:00:08.723Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000001","timestamp":"2025-05-06T18:01:03.858Z"}
+{"level":"info","message":"::1 - - [06/May/2025:18:01:04 +0000] \"PUT /api/users/0000001 HTTP/1.1\" 404 28 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T18:01:04.012Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000002","timestamp":"2025-05-06T18:01:33.447Z"}
+{"level":"info","message":"::1 - - [06/May/2025:18:01:33 +0000] \"PUT /api/users/0000002 HTTP/1.1\" 404 28 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T18:01:33.640Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T18:02:32.810Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T18:02:37.906Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T18:02:37.921Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000001","timestamp":"2025-05-06T18:02:53.295Z"}
+{"level":"info","message":"::1 - - [06/May/2025:18:02:53 +0000] \"PUT /api/users/0000001 HTTP/1.1\" 404 28 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T18:02:53.815Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000001","timestamp":"2025-05-06T18:02:57.175Z"}
+{"level":"info","message":"::1 - - [06/May/2025:18:02:57 +0000] \"PUT /api/users/0000001 HTTP/1.1\" 404 28 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T18:02:57.363Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T18:03:50.617Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-06T18:03:56.937Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-06T18:03:56.953Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000001","timestamp":"2025-05-06T18:04:24.488Z"}
+{"level":"info","message":"::1 - - [06/May/2025:18:04:24 +0000] \"PUT /api/users/0000001 HTTP/1.1\" 404 28 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T18:04:24.767Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000002","timestamp":"2025-05-06T18:05:20.885Z"}
+{"level":"info","message":"::1 - - [06/May/2025:18:05:21 +0000] \"PUT /api/users/0000002 HTTP/1.1\" 200 664 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-06T18:05:21.082Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T18:59:48.335Z"}
+{"level":"error","message":"❌ MongoDB connection failed: querySrv ECONNREFUSED _mongodb._tcp.cluster0.wu4gy.mongodb.net","timestamp":"2025-05-06T19:01:07.308Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-06T19:02:00.581Z"}
+{"level":"error","message":"❌ MongoDB connection failed: querySrv ETIMEOUT _mongodb._tcp.cluster0.wu4gy.mongodb.net","timestamp":"2025-05-06T19:03:33.672Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-07T07:20:02.263Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-07T07:20:11.847Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-07T07:20:11.885Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000002","timestamp":"2025-05-07T07:20:26.071Z"}
+{"level":"info","message":"::1 - - [07/May/2025:07:20:30 +0000] \"PUT /api/users/0000002 HTTP/1.1\" 200 709 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T07:20:30.521Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/USERS","timestamp":"2025-05-07T08:16:25.624Z"}
+{"level":"info","message":"::1 - - [07/May/2025:08:16:26 +0000] \"GET /api/USERS HTTP/1.1\" 200 1876 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T08:16:26.714Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:20:13.025Z"}
+{"level":"info","message":"::1 - - [07/May/2025:08:20:13 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T08:20:13.199Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:24:30.482Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:24:30.495Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:24:30 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:24:30.708Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:24:30 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:24:30.746Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:24:36.809Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:24:36.822Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:24:37 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:24:37.118Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:24:37 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:24:37.122Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:25:47.949Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:25:47 +0000] \"OPTIONS /api/users/undefined HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:25:47.958Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:25:47.961Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:25:51 +0000] \"PUT /api/users/undefined HTTP/1.1\" 404 28 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:25:51.726Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:27:42.449Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:27:42 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:27:42.641Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:27:45.887Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:27:45 +0000] \"OPTIONS /api/users/undefined HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:27:45.889Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:27:45.890Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:27:49 +0000] \"PUT /api/users/undefined HTTP/1.1\" 404 28 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:27:49.735Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:28:16.136Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:28:16 +0000] \"OPTIONS /api/users/undefined HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:28:16.138Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:28:16.141Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:28:18 +0000] \"PUT /api/users/undefined HTTP/1.1\" 404 28 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:28:18.787Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:28:45.414Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:28:45 +0000] \"OPTIONS /api/users/undefined HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:28:45.417Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:28:45.419Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:28:47 +0000] \"PUT /api/users/undefined HTTP/1.1\" 404 28 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:28:47.712Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:28:48.726Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T08:28:48.737Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:28:48 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:28:48.911Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:28:48 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:28:48.918Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:28:58.514Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:28:58 +0000] \"OPTIONS /api/users/undefined HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:28:58.516Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:28:58.518Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:29:02 +0000] \"PUT /api/users/undefined HTTP/1.1\" 404 28 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:29:02.657Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-07T08:33:55.891Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-07T08:34:06.883Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-07T08:34:06.916Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:49:30.533Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:49:30 +0000] \"OPTIONS /api/users/undefined HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:49:30.545Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/undefined","timestamp":"2025-05-07T08:49:30.550Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:08:49:34 +0000] \"PUT /api/users/undefined HTTP/1.1\" 404 28 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T08:49:34.591Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T09:05:13.702Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:09:05:13 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T09:05:13.890Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T09:13:41.937Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T09:13:41.975Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:09:13:42 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T09:13:42.589Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:09:13:42 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T09:13:42.662Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T09:14:21.413Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:09:14:21 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T09:14:21.598Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T09:14:23.555Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T09:14:23.563Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:09:14:24 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T09:14:24.137Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:09:14:24 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T09:14:24.204Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T10:58:29.769Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:10:58:29 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T10:58:29.996Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T12:26:57.785Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T12:26:57.809Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:12:26:58 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T12:26:58.040Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:12:26:58 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 652 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T12:26:58.071Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-07T12:53:16.537Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-07T12:53:24.468Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-07T12:53:24.491Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T12:53:37.330Z"}
+{"level":"info","message":"::1 - - [07/May/2025:12:53:37 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 310 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T12:53:37.599Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T14:14:13.443Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:14:13 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 310 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:14:13.666Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T14:14:27.946Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:14:28 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:14:28.147Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T14:15:04.098Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:15:04 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:15:04.283Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T14:25:56.195Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:25:56 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:25:56.351Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T14:25:56.395Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /uploads/profileImage-1746547183472-356062929.jpg","timestamp":"2025-05-07T14:25:56.409Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:25:56 +0000] \"GET /uploads/profileImage-1746547183472-356062929.jpg HTTP/1.1\" 404 187 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:25:56.425Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:25:56 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:25:56.576Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:27:41.612Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:27:41.616Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:27:41 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:27:41.769Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:27:41 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:27:41.776Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T14:29:53.092Z"}
+{"level":"info","message":"::1 - - [07/May/2025:14:29:53 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 310 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T14:29:53.249Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:30:28.378Z"}
+{"level":"info","message":"::1 - - [07/May/2025:14:30:28 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T14:30:28.615Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:30:36.728Z"}
+{"level":"info","message":"::1 - - [07/May/2025:14:30:36 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T14:30:36.878Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/USERS","timestamp":"2025-05-07T14:31:03.666Z"}
+{"level":"info","message":"::1 - - [07/May/2025:14:31:03 +0000] \"GET /api/USERS HTTP/1.1\" 200 1876 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T14:31:03.877Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:35:00.268Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:35:00 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:35:00.440Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:35:46.076Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:35:46 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:35:46.235Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:38:20.331Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:38:20 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:38:20.571Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T14:38:20.579Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:38:20 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:38:20.745Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-05-07T14:38:32.938Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:38:33 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 200 2395 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:38:33.275Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-05-07T14:44:06.779Z"}
+{"level":"info","message":"::1 - - [07/May/2025:14:44:06 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 200 2395 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T14:44:06.966Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-05-07T14:54:28.686Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:54:28 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 200 2395 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:54:28.849Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-05-07T14:54:34.062Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:14:54:34 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 200 2395 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T14:54:34.229Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T15:08:47.669Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T15:08:47.748Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:08:47 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:08:47.869Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:08:47 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:08:47.978Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-05-07T15:08:49.756Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:08:49 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 200 2395 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:08:49.999Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T15:11:46.546Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T15:11:46.624Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:11:46 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:11:46.891Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:11:46 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:11:46.908Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-05-07T15:11:47.492Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:11:47 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:11:47.722Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T15:34:23.320Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T15:34:23.333Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:34:23 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:34:23.572Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:34:23 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:34:23.578Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/+2347035708817","timestamp":"2025-05-07T15:34:24.500Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:15:34:24 +0000] \"GET /api/purchase-requests/+2347035708817 HTTP/1.1\" 200 2395 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T15:34:24.740Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/+2347035708817","timestamp":"2025-05-07T16:49:35.007Z"}
+{"level":"info","message":"::1 - - [07/May/2025:16:49:35 +0000] \"GET /api/users/+2347035708817 HTTP/1.1\" 200 239 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T16:49:35.206Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/+2348068526093","timestamp":"2025-05-07T16:50:21.178Z"}
+{"level":"info","message":"::1 - - [07/May/2025:16:50:21 +0000] \"GET /api/users/+2348068526093 HTTP/1.1\" 200 310 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T16:50:21.353Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/USERS","timestamp":"2025-05-07T16:50:32.913Z"}
+{"level":"info","message":"::1 - - [07/May/2025:16:50:33 +0000] \"GET /api/USERS HTTP/1.1\" 200 1876 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T16:50:33.113Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/users/0000003","timestamp":"2025-05-07T16:51:08.048Z"}
+{"level":"info","message":"::1 - - [07/May/2025:16:51:08 +0000] \"PUT /api/users/0000003 HTTP/1.1\" 200 691 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-07T16:51:08.568Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/681b705393a8d996b61e8664/status","timestamp":"2025-05-07T16:53:20.294Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:16:53:20 +0000] \"OPTIONS /api/purchase-requests/681b705393a8d996b61e8664/status HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T16:53:20.297Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/681b705393a8d996b61e8664/status","timestamp":"2025-05-07T16:53:20.300Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:16:53:20 +0000] \"PATCH /api/purchase-requests/681b705393a8d996b61e8664/status HTTP/1.1\" 404 194 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T16:53:20.309Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/681b705393a8d996b61e8664/status","timestamp":"2025-05-07T16:54:35.287Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:16:54:35 +0000] \"OPTIONS /api/purchase-requests/681b705393a8d996b61e8664/status HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T16:54:35.290Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/681b705393a8d996b61e8664/status","timestamp":"2025-05-07T16:54:35.291Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:16:54:35 +0000] \"PUT /api/purchase-requests/681b705393a8d996b61e8664/status HTTP/1.1\" 404 192 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T16:54:35.294Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/680a55ce84585043f40d3ad1/status","timestamp":"2025-05-07T16:54:40.414Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:16:54:40 +0000] \"OPTIONS /api/purchase-requests/680a55ce84585043f40d3ad1/status HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T16:54:40.416Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/680a55ce84585043f40d3ad1/status","timestamp":"2025-05-07T16:54:40.419Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:16:54:40 +0000] \"PUT /api/purchase-requests/680a55ce84585043f40d3ad1/status HTTP/1.1\" 404 192 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T16:54:40.421Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/status/681b705393a8d996b61e8664","timestamp":"2025-05-07T17:04:17.211Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:04:17 +0000] \"OPTIONS /api/purchase-requests/status/681b705393a8d996b61e8664 HTTP/1.1\" 204 0 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:04:17.215Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/purchase-requests/status/681b705393a8d996b61e8664","timestamp":"2025-05-07T17:04:17.217Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:04:17 +0000] \"PUT /api/purchase-requests/status/681b705393a8d996b61e8664 HTTP/1.1\" 500 184 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:04:17.488Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:15:58.639Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:15:58.654Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:15:58 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:15:58.810Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:15:58 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:15:58.825Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:18:50.255Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:18:50.266Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:18:50 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:18:50.436Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:18:50 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:18:50.460Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:19:40.301Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:19:40.308Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:19:40 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:19:40.460Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:19:40 +0000] \"GET /api/users HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:19:40.470Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:19:45.880Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:19:45.885Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:19:46 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:19:46.063Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:19:46 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:19:46.090Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:20:46.959Z"}
+{"level":"info","message":"Incoming request from IP: ::ffff:127.0.0.1, URL: /api/users","timestamp":"2025-05-07T17:20:46.967Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:20:47 +0000] \"GET /api/users HTTP/1.1\" 200 1877 \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:20:47.137Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/May/2025:17:20:47 +0000] \"GET /api/users HTTP/1.1\" 304 - \"http://10.69.6.77:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0\"","timestamp":"2025-05-07T17:20:47.151Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T09:27:19.780Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T09:27:26.128Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T09:27:26.155Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T09:36:31.609Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T09:36:43.430Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T09:36:43.441Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T09:53:10.650Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T09:53:25.246Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T09:53:25.274Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inward-transfers","timestamp":"2025-05-08T09:59:44.516Z"}
+{"level":"info","message":"::1 - - [08/May/2025:09:59:44 +0000] \"POST /api/inward-transfers HTTP/1.1\" 404 160 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T09:59:44.809Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer/","timestamp":"2025-05-08T10:00:41.740Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:00:41 +0000] \"POST /api/inwardfundstransfer/ HTTP/1.1\" 404 164 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:00:41.743Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:01:05.893Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:01:05 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 404 163 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:01:05.895Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:02:29.357Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:02:29 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 404 163 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:02:29.359Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:02:31.874Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:02:31 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 404 163 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:02:31.877Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T10:06:34.514Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T10:06:43.001Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T10:06:43.015Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:13:16.412Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:13:16 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 871 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:13:16.882Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:16:36.370Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:16:36 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 143 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:16:36.446Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:16:48.354Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:16:48 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:16:48.459Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:17:52.690Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:17:52 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:17:52.712Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:17:56.105Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:17:56 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:17:56.116Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T10:20:10.823Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T10:20:21.987Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T10:20:22.004Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:20:29.739Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:20:29 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:20:29.979Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T10:21:31.537Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T10:21:44.233Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T10:21:44.243Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:22:06.258Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:22:06 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:22:06.394Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T10:25:41.588Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T10:25:54.944Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T10:25:54.965Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:26:05.701Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:26:05 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:26:05.877Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T10:28:10.625Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T10:28:20.736Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T10:28:20.742Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:28:39.218Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:28:40 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 400 84 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:28:40.283Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T10:31:38.364Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T10:31:45.043Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T10:31:45.062Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T10:31:50.757Z"}
+{"level":"info","message":"::1 - - [08/May/2025:10:31:51 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 201 937 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T10:31:51.891Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/credit-wallet","timestamp":"2025-05-08T15:53:55.478Z"}
+{"level":"info","message":"::1 - - [08/May/2025:15:53:57 +0000] \"GET /api/wallet/credit-wallet HTTP/1.1\" 200 17953 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T15:53:57.199Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/USERS","timestamp":"2025-05-08T15:54:47.937Z"}
+{"level":"info","message":"::1 - - [08/May/2025:15:54:48 +0000] \"GET /api/USERS HTTP/1.1\" 200 1877 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T15:54:48.120Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/wallet/account-name/8068526093","timestamp":"2025-05-08T15:55:43.472Z"}
+{"level":"info","message":"::1 - - [08/May/2025:15:55:43 +0000] \"GET /api/wallet/wallet/account-name/8068526093 HTTP/1.1\" 200 108 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T15:55:43.634Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/credit-wallet","timestamp":"2025-05-08T15:57:29.907Z"}
+{"level":"info","message":"::1 - - [08/May/2025:15:57:30 +0000] \"GET /api/wallet/credit-wallet HTTP/1.1\" 200 17953 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T15:57:30.090Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/credit-wallet","timestamp":"2025-05-08T15:58:22.248Z"}
+{"level":"info","message":"::1 - - [08/May/2025:15:58:22 +0000] \"GET /api/wallet/credit-wallet HTTP/1.1\" 200 17953 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T15:58:22.479Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T16:41:40.786Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T16:41:43.666Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T16:41:43.680Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T16:41:51.018Z"}
+{"level":"info","message":"::1 - - [08/May/2025:16:41:51 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 500 145 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T16:41:51.459Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T16:42:21.103Z"}
+{"level":"info","message":"::1 - - [08/May/2025:16:42:21 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 500 67 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T16:42:21.638Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T16:45:48.298Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T16:45:51.521Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T16:45:51.563Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T16:45:58.953Z"}
+{"level":"info","message":"::1 - - [08/May/2025:16:45:59 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 201 873 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T16:45:59.897Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/transaction/8068526093","timestamp":"2025-05-08T16:47:03.540Z"}
+{"level":"info","message":"::1 - - [08/May/2025:16:47:04 +0000] \"GET /api/wallet/transaction/8068526093 HTTP/1.1\" 200 40059 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T16:47:04.117Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T16:51:47.971Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T16:51:51.018Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T16:51:51.024Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-08T16:52:15.817Z"}
+{"level":"info","message":"::1 - - [08/May/2025:16:52:16 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 201 874 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T16:52:16.834Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/transaction/8068526093","timestamp":"2025-05-08T16:52:46.735Z"}
+{"level":"info","message":"::1 - - [08/May/2025:16:52:47 +0000] \"GET /api/wallet/transaction/8068526093 HTTP/1.1\" 200 40475 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T16:52:47.227Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/credit-wallet","timestamp":"2025-05-08T16:53:43.728Z"}
+{"level":"info","message":"::1 - - [08/May/2025:16:53:43 +0000] \"GET /api/wallet/credit-wallet HTTP/1.1\" 200 18460 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T16:53:43.889Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-08T17:50:09.822Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-08T17:50:15.364Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-08T17:50:15.397Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/credit-wallet","timestamp":"2025-05-08T17:50:36.036Z"}
+{"level":"info","message":"::1 - - [08/May/2025:17:50:36 +0000] \"GET /api/wallet/credit-wallet HTTP/1.1\" 200 18460 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T17:50:36.248Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/wallet/balance/8068526093","timestamp":"2025-05-08T17:52:17.384Z"}
+{"level":"info","message":"::1 - - [08/May/2025:17:54:18 +0000] \"GET /api/wallet/wallet/balance/8068526093 HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T17:54:18.035Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/wallet/balance/8068526093","timestamp":"2025-05-08T17:54:20.821Z"}
+{"level":"info","message":"::1 - - [08/May/2025:18:05:14 +0000] \"GET /api/wallet/wallet/balance/8068526093 HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T18:05:14.128Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/wallet/balance/","timestamp":"2025-05-08T18:05:15.789Z"}
+{"level":"info","message":"::1 - - [08/May/2025:18:05:15 +0000] \"GET /api/wallet/wallet/balance/ HTTP/1.1\" 404 30 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T18:05:15.970Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/wallet/balance","timestamp":"2025-05-08T18:05:24.901Z"}
+{"level":"info","message":"::1 - - [08/May/2025:18:05:25 +0000] \"GET /api/wallet/wallet/balance HTTP/1.1\" 404 30 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T18:05:25.047Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/wallet/balance/8068526093","timestamp":"2025-05-08T18:05:38.353Z"}
+{"level":"info","message":"::1 - - [08/May/2025:20:15:13 +0000] \"GET /api/wallet/wallet/balance/8068526093 HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T20:15:13.560Z"}

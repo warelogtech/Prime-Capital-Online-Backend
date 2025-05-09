@@ -3,10 +3,11 @@ import {
   createPurchaseRequest,
   getAllPurchaseRequests,
   getPurchaseRequestByPhoneNumber,
-  updateRequestStatus
+  updateRequestStatus,
+  handleWebhook // Make sure you're importing this function
 } from '../controllers/purchaseRequestController.js';
 
-const router = express.Router();
+const router = express.Router();  // Use router instead of app
 
 // Create new purchase request
 router.post('/purchase', createPurchaseRequest);
@@ -18,6 +19,9 @@ router.get('/', getAllPurchaseRequests);
 router.get('/:phoneNumber', getPurchaseRequestByPhoneNumber);
 
 // Update status of a request (Approve/Reject)
-router.patch('/:phoneNumber/status', updateRequestStatus);
+router.put('/status/:id', updateRequestStatus);  // Call the imported updateRequestStatus function here
+
+// Webhook for Paystack events
+router.post('/paystack/webhook', handleWebhook);  // Add the webhook handler route here
 
 export default router;

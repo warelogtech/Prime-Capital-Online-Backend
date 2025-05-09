@@ -85,7 +85,7 @@ const walletSchema = new mongoose.Schema({
   transactions: [transactionSchema],  // Nested transaction schema
   customer_id: { 
     type: Number,  // Ensuring customer_id is a number
-    required: true,
+    required: false,
     unique: true,
     minlength: 7,
     maxlength: 7,  // Ensuring it is a 7-digit number

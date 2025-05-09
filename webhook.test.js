@@ -28,7 +28,7 @@ describe('Paystack Webhook', () => {
 
     // Create hash with your secret key
     const hash = crypto
-      .createHmac('sha512', process.env.Test_Secret_Key)
+      .createHmac('sha512', process.env.PAYSTACK_SECRET_KEY) // Corrected variable name
       .update(stringPayload)
       .digest('hex');
 
@@ -62,6 +62,6 @@ describe('Paystack Webhook', () => {
       .send(stringPayload);
 
     expect(res.statusCode).toBe(401);
-    expect(res.text).toBe('Unauthorized');
+    expect(res.text).toBe('Unauthorized: Invalid signature'); // Corrected expected message
   });
 });

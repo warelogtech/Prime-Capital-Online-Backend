@@ -12,7 +12,7 @@ const GuarantorSchema = new mongoose.Schema(
 const UserSchema = new mongoose.Schema(
   {
     customer_id: {
-      type: String, // changed from Number
+      type: String,
       required: false,
       unique: true,
       index: true,
@@ -24,7 +24,7 @@ const UserSchema = new mongoose.Schema(
     bvn: {
       type: String,
       unique: true,
-      sparse: true, // allows multiple documents with missing or empty BVN
+      sparse: true,
     },
     
     firstName: { type: String, required: true },
@@ -36,32 +36,36 @@ const UserSchema = new mongoose.Schema(
       match: [/.+@.+\..+/, 'Please enter a valid email address'],
     },
     address: { type: String, required: true },
-    
+
+    profileImage: {
+      type: String, required: true,
+      default: '', // Cloudinary URL or default avatar path
+    },
+
     guarantorContacts: {
       type: [GuarantorSchema],
       required: true,
     },
+
     userType: { 
       type: String, 
       enum: ['user', 'admin', 'superuser'], 
-      default: 'user' // default to 'user' if not provided
-    }, 
+      default: 'user',
+    },
   },
   { timestamps: true }
 );
-
 
 UserSchema.pre('save', async function (next) {
   if (this.isNew && !this.customer_id) {
     try {
       const lastUser = await mongoose.models.User.findOne({}).sort({ customer_id: -1 }).limit(1);
-      
+
       let nextId = 1;
       if (lastUser && lastUser.customer_id) {
         nextId = parseInt(lastUser.customer_id, 10) + 1;
       }
-      
-      // Pad to 7 digits
+
       this.customer_id = nextId.toString().padStart(7, '0');
 
       next();
@@ -72,6 +76,5 @@ UserSchema.pre('save', async function (next) {
     next();
   }
 });
-
 
 export default mongoose.models.User || mongoose.model('User', UserSchema);

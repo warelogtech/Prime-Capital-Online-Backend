@@ -4,6 +4,8 @@ import User from '../models/User.js';
 import Otp from '../models/otpmodel.js';
 import sendOTP from '../utils/sendOtp.js';
 import CustomerIdentification from '../models/CustomerIdentification.js';
+import { uploadToCloudinary } from '../utils/cloudinaryUpload.js';
+import cloudinary from 'cloudinary';
 
 // Register User
 export const registerUser = async (req, res) => {
@@ -21,6 +23,7 @@ export const registerUser = async (req, res) => {
       event,
       customerCode,
       identificationDetails,
+      profileImage // base64 or leave blank if file upload
     } = req.body;
 
     const formattedPhoneNumber = phoneNumber.startsWith('+')
@@ -36,7 +39,15 @@ export const registerUser = async (req, res) => {
       return res.status(400).json({ message: "Either NIN or BVN is required" });
     }
 
-    if (!Array.isArray(guarantorContacts) || guarantorContacts.length === 0) {
+    const parsedGuarantors = typeof guarantorContacts === 'string'
+      ? JSON.parse(guarantorContacts)
+      : guarantorContacts;
+
+    const parsedIdDetails = typeof identificationDetails === 'string'
+      ? JSON.parse(identificationDetails)
+      : identificationDetails;
+
+    if (!Array.isArray(parsedGuarantors) || parsedGuarantors.length === 0) {
       return res.status(400).json({
         message: "Guarantor contacts are required and must be an array.",
       });
@@ -44,7 +55,16 @@ export const registerUser = async (req, res) => {
 
     const hashedPassword = await bcrypt.hash(password, 12);
 
-    // Construct user object conditionally
+    let profileImageUrl = '';
+
+    if (req.file) {
+      const cloudinaryResult = await uploadToCloudinary(req.file.path);
+      profileImageUrl = cloudinaryResult.secure_url;
+    } else if (profileImage && profileImage.startsWith('data:image')) {
+      const cloudinaryResult = await uploadToCloudinary(profileImage);
+      profileImageUrl = cloudinaryResult.secure_url;
+    }
+
     const userObj = {
       phoneNumber: formattedPhoneNumber,
       nin,
@@ -53,7 +73,9 @@ export const registerUser = async (req, res) => {
       password: hashedPassword,
       email,
       address,
-      guarantorContacts,
+      guarantorContacts: parsedGuarantors,
+      identificationDetails: parsedIdDetails,
+      profileImage: profileImageUrl
     };
 
     if (bvn && bvn.trim() !== '') {
@@ -69,7 +91,7 @@ export const registerUser = async (req, res) => {
         customerCode,
         event,
         email,
-        identificationDetails
+        parsedIdDetails
       );
     }
 
@@ -100,9 +122,11 @@ export const registerUser = async (req, res) => {
     res.status(200).json({
       message: "User registered successfully. OTP sent. Please verify to complete registration.",
       user: formattedUser,
-      otp, // ⚠️ Remove in production
+      otp // ⚠️ Remove this in production!
     });
+
   } catch (error) {
+    console.error(error);
     res.status(500).json({ message: "Server error", error: error.message });
   }
 };
@@ -144,17 +168,49 @@ export const getUsers = async (req, res) => {
 export const updateUser = async (req, res) => {
   try {
     const { customer_id } = req.params;
-    const updatedUser = await User.findOneAndUpdate({ customer_id }, req.body, {
-      new: true,
+    const { profileImage, ...updatedFields } = req.body;
+
+    let updatedUser;
+
+    if (req.file) {
+      // Upload to Cloudinary using buffer and stream
+      const streamUpload = (buffer) => {
+        return new Promise((resolve, reject) => {
+          const stream = cloudinary.v2.uploader.upload_stream(
+            {
+              folder: 'uploads',
+              public_id: `images/${Date.now()}`,
+              resource_type: 'image',
+            },
+            (error, result) => {
+              if (error) return reject(error);
+              resolve(result);
+            }
+          );
+          stream.end(buffer);
+        });
+      };
+
+      const result = await streamUpload(req.file.buffer);
+      updatedFields.profileImage = result.secure_url;
+    } else if (profileImage && profileImage.startsWith('data:image')) {
+      const cloudResult = await uploadToCloudinary(profileImage);
+      updatedFields.profileImage = cloudResult.secure_url;
+    }
+
+    updatedUser = await User.findOneAndUpdate({ customer_id }, updatedFields, {
+      new: true
     });
 
     if (!updatedUser) {
-      return res.status(404).json({ message: "User not found" });
+      return res.status(404).json({ message: 'User not found' });
     }
 
-    res.status(200).json({ message: "User updated successfully", user: updatedUser });
+    return res.status(200).json({ message: 'User updated successfully', user: updatedUser });
+
   } catch (error) {
-    res.status(500).json({ message: "Server error", error: error.message });
+    console.error(error);
+    return res.status(500).json({ message: 'Server error', error: error.message });
   }
 };
 
@@ -299,6 +355,7 @@ export const updateUserRole = async (req, res) => {
   }
 };
 
+
 // Get user by phone number
 export const getUserByPhoneNumber = async (req, res) => {
   try {
@@ -314,8 +371,18 @@ export const getUserByPhoneNumber = async (req, res) => {
       return res.status(404).json({ message: "User not found" });
     }
 
-    // Send user data as a response
-    res.status(200).json({ user });
+    const userData = {
+      firstName: user.firstName,
+      lastName: user.lastName,
+      phoneNumber: user.phoneNumber,
+      email: user.email,
+      address: user.address,
+      profileImage: user.profileImage, // <-- ensure this field is returned
+      createdAt: user.createdAt,
+      updatedAt: user.updatedAt
+    };
+
+    res.status(200).json({ user: userData });
   } catch (error) {
     res.status(500).json({ message: "Server error", error: error.message });
   }

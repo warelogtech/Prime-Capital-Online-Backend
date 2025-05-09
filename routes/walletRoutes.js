@@ -10,7 +10,9 @@ import {
   getAllWalletTransactions,
   verifyPaymentAndCreditWallet,
   getTransferCode,
-  getAccountName
+  getAccountName,
+  getWalletBalance,
+  handleGetWalletBalance
 } from '../controllers/walletController.js';
 import { initializePayment } from '../services/initializePayment.js';
 
@@ -91,5 +93,10 @@ router.get('/wallet/account-name/:acct_no', getAccountName);
 
 // Route to reset the wallet balance (for testing or other purposes)
 router.post('/reset-wallet', resetWallet);
+
+// GET wallet balance by account number
+router.get('/wallet/balance/:acct_no', getWalletBalance);
+
+router.get('/balance/:acct_no', handleGetWalletBalance);
 
 export default router;

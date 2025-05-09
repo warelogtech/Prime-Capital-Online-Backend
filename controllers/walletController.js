@@ -399,24 +399,38 @@ export const getTransferCode = (req, res) => {
 
 
 // Utility function (reusable)
-export const disburseWallet = async ({ acct_no, amount, description, interestRate = 0.15, repaymentPeriod = 14 }) => {
+export const disburseWallet = async ({
+  acct_no,
+  amount,
+  description,
+  interestRate = 0.15,
+  repaymentPeriod = 14,
+  customer_id
+}) => {
   try {
+    console.log('DisburseWallet params:', { acct_no, amount, description, interestRate, repaymentPeriod, customer_id });
+
     const wallet = await Wallet.findOne({ acct_no });
+
     if (!wallet) {
       return { status: 404, message: "Wallet not found" };
     }
 
-    const { email } = wallet;
+    const walletCustomerId = wallet.customer_id || customer_id;
+    if (!walletCustomerId) {
+      return { status: 400, message: "customer_id is required for disbursement" };
+    }
 
+    console.log(`Wallet found for acct_no ${acct_no}, customer_id: ${walletCustomerId}`);
+
+    const { email } = wallet;
     const interest = amount * interestRate;
     const totalDisbursement = amount + interest;
     const dailyRepayment = totalDisbursement / repaymentPeriod;
 
-    // Update wallet loan balance
     wallet.loanBalance += totalDisbursement;
     wallet.netBalance = wallet.walletBalance - wallet.loanBalance;
 
-    // Record transaction in wallet
     wallet.transactions.push({
       type: 'credit',
       amount: totalDisbursement,
@@ -426,7 +440,6 @@ export const disburseWallet = async ({ acct_no, amount, description, interestRat
 
     await wallet.save();
 
-    // Insert a new DisbursedLoan record
     await DisbursedLoan.create({
       wallet_id: wallet._id,
       acct_no,
@@ -438,18 +451,29 @@ export const disburseWallet = async ({ acct_no, amount, description, interestRat
       description: description || 'Loan Disbursement'
     });
 
-    // Record GL Transaction
+    // Generate unique txnId using counter
+    const counter = await Counter.findByIdAndUpdate(
+      { _id: 'txnId' },
+      { $inc: { seq: 1 } },
+      { new: true, upsert: true }
+    );
+
+    const txnId = counter.seq;
+
+    // Create GL Transaction
     await GLTransaction.create({
-      txnId: Date.now(),
+      txnId,
       txnType: 'CR',
-      amount: mongoose.Types.Decimal128.fromString(totalDisbursement.toString()),
       glAcctNo: '1000211030201',
-      glAcctId: '1000211030201-' + Date.now(), // ensure uniqueness
-      description: description || `Loan Disbursement (Principal: ${amount}, Interest: ${interest.toFixed(2)})`,
-      phoneNumber: wallet.phoneNumber,
-      wallet_id: wallet._id,
+      glAcctId: `1000211030201-${txnId}`,
+      amount: mongoose.Types.Decimal128.fromString(totalDisbursement.toString()),
       acct_no,
-      email,
+      wallet_id: wallet._id,
+      name: wallet.name || 'Unnamed',
+      email: email || 'n/a',
+      phoneNumber: wallet.phoneNumber || 'n/a',
+      customer_id: walletCustomerId,
+      description: description || `Loan Disbursement (Principal: ${amount}, Interest: ${interest.toFixed(2)})`,
       createdBy: 'system',
     });
 
@@ -469,6 +493,10 @@ export const disburseWallet = async ({ acct_no, amount, description, interestRat
     return { status: 500, message: "Disbursement error", error: error.message };
   }
 };
+
+
+
+
 
 // Function for Loan repayment
 export const repayLoan = async (req, res) => {
@@ -722,3 +750,42 @@ export const getAccountName = async (req, res) => {
     return res.status(500).json({ message: "Error fetching account name", error: error.message });
   }
 };
+
+// Function to get wallet balance only
+export const getWalletBalance = async (acct_no) => {
+  try {
+    const wallet = await Wallet.findOne({ acct_no });
+
+    if (!wallet) {
+      return { status: 404, message: "Wallet not found" };
+    }
+
+    return {
+      status: 200,
+      walletBalance: wallet.walletBalance,
+      loanBalance: wallet.loanBalance,
+      netBalance: wallet.netBalance,
+    };
+  } catch (error) {
+    console.error('Error getting wallet balance:', error);
+    return { status: 500, message: "Error retrieving wallet balance", error: error.message };
+  }
+};
+
+export const handleGetWalletBalance = async (req, res) => {
+  const { acct_no } = req.params;
+
+  if (!acct_no) {
+    return res.status(400).json({ message: "Account number is required" });
+  }
+
+  const result = await getWalletBalance(acct_no);
+  return res.status(result.status).json(result);
+};
+
+export default {
+  disburseWallet,
+  cashWithdrawal,
+  creditWallet,
+  getWalletBalance,
+  handleGetWalletBalance}

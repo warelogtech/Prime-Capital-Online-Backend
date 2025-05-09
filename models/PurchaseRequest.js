@@ -37,6 +37,14 @@ const PurchaseRequestSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  vendorAccountNumber: {
+    type: String,
+    required: true
+  },
+  vendorBankName: {
+    type: String,
+    required: true
+  },
   businessName: {
     type: String,
     required: true
@@ -57,7 +65,10 @@ const PurchaseRequestSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  vehicleNumber: { type: String, required: true },
+  vehicleNumber: {
+    type: String,
+    required: true
+  },
   status: {
     type: String,
     enum: ['Pending', 'Approved', 'Rejected'],

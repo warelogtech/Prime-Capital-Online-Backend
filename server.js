@@ -3,8 +3,11 @@ import app from "./app.js";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import fs from 'fs';
-import path from 'path';
-import logger from './logger/logger.js'; // ✅ Already configured logger
+import logger from './logger/logger.js'; 
+import { uploadToCloudinary, handleUserUploads } from './utils/cloudinaryUpload.js';
+import path from "path";
+import { fileURLToPath } from "url";
+import multer from "multer";
 
 // Load environment variables
 dotenv.config();
