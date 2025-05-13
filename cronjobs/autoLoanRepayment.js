@@ -5,6 +5,7 @@ import Wallet from '../models/wallet.js';
 import RepaymentTransaction from '../models/RepaymentTransaction.js';
 import GLTransaction from '../models/glTransactions.js';
 import Counter from '../models/Counter.js';
+import User from '../models/User.js'; // ✅ Correct import
 
 // Function to repay loan automatically
 export const repayLoanAutomatically = async () => {
@@ -13,23 +14,36 @@ export const repayLoanAutomatically = async () => {
     const wallets = await Wallet.find({ loanBalance: { $gt: 0 } });
 
     for (const wallet of wallets) {
-      // Check if customer_id is missing
+      // Handle missing customer_id
       if (!wallet.customer_id) {
-        console.log(`Missing customer_id for wallet: ${wallet.acct_no}`);
-        continue;  // Skip this wallet if customer_id is missing
+        const last10 = wallet.acct_no.slice(-10); // Get last 10 digits
+
+        // Find user whose phone number ends with those 10 digits
+        const user = await User.findOne({
+          phoneNumber: { $regex: `${last10}$` }
+        });
+
+        if (!user || !user.customer_id) {
+          console.log(`❌ Missing customer_id for wallet: ${wallet.acct_no}`);
+          continue; // Skip wallet
+        }
+
+        wallet.customer_id = user.customer_id;
+        await wallet.save();
+        console.log(`✅ Patched customer_id (${user.customer_id}) for acct_no: ${wallet.acct_no}`);
       }
 
       const { acct_no, loanBalance, walletBalance, name, email, phoneNumber } = wallet;
 
-      // Calculate repayment amount from wallet balance (you can adjust the logic if needed)
+      // Calculate repayment amount
       const repaymentAmount = walletBalance > loanBalance ? loanBalance : walletBalance;
 
       if (repaymentAmount <= 0) {
         console.log(`No repayment necessary for account: ${acct_no}`);
-        continue; // No loan balance to repay
+        continue;
       }
 
-      // Generate unique txnId from Counter
+      // Generate transaction ID
       const counter = await Counter.findByIdAndUpdate(
         { _id: 'txnId' },
         { $inc: { seq: 1 } },
@@ -37,7 +51,7 @@ export const repayLoanAutomatically = async () => {
       );
       const txnId = counter.seq;
 
-      // Update wallet balances
+      // Update wallet
       wallet.loanBalance -= repaymentAmount;
       if (wallet.loanBalance < 0) wallet.loanBalance = 0;
       wallet.walletBalance -= repaymentAmount;
@@ -52,11 +66,11 @@ export const repayLoanAutomatically = async () => {
 
       await wallet.save();
 
-      // Save Repayment Transaction
+      // Save repayment transaction
       const repaymentTransaction = new RepaymentTransaction({
         txnId,
         amount: repaymentAmount,
-        acct_no: wallet.acct_no,
+        acct_no,
         wallet_id: wallet._id,
         description: 'Automatic Loan Repayment',
         createdBy: 'system',
@@ -96,15 +110,15 @@ export const repayLoanAutomatically = async () => {
         }
       ]);
 
-      console.log(`Loan repayment successful for account: ${acct_no}`);
+      console.log(`✅ Loan repayment successful for account: ${acct_no}`);
     }
   } catch (error) {
-    console.error('Error processing automatic loan repayments:', error);
+    console.error('❌ Error processing automatic loan repayments:', error);
   }
 };
 
-// Schedule the cron job to run daily at a specific time (e.g., 1 AM)
+// Schedule the cron job to run daily at 1 AM
 cron.schedule('0 1 * * *', () => {
-  console.log('Starting automatic loan repayment process...');
+  console.log('⏰ Starting automatic loan repayment process...');
   repayLoanAutomatically();
 });

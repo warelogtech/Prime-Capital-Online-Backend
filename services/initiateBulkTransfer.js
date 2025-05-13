@@ -1,19 +1,21 @@
+// services/initiateBulkTransfer.js
 import https from 'https';
+import dotenv from 'dotenv';
 
-export const createTransferRecipient = ({ name, account_number, bank_code, currency }) => {
+dotenv.config();
+
+export const initiateBulkTransfer = (transfers) => {
   return new Promise((resolve, reject) => {
     const params = JSON.stringify({
-      type: 'nuban',
-      name,
-      account_number,
-      bank_code,
-      currency: currency || 'NGN'
+      currency: 'NGN',
+      source: 'balance',
+      transfers
     });
 
     const options = {
       hostname: 'api.paystack.co',
       port: 443,
-      path: '/transferrecipient',
+      path: '/transfer/bulk',
       method: 'POST',
       headers: {
         Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}`,
@@ -21,24 +23,24 @@ export const createTransferRecipient = ({ name, account_number, bank_code, curre
       }
     };
 
-    const request = https.request(options, response => {
+    const request = https.request(options, (response) => {
       let data = '';
 
-      response.on('data', chunk => {
+      response.on('data', (chunk) => {
         data += chunk;
       });
 
       response.on('end', () => {
         const result = JSON.parse(data);
         if (result.status) {
-          resolve(result.data);
+          resolve(result.data); // return only the relevant payload
         } else {
           reject(new Error(result.message));
         }
       });
     });
 
-    request.on('error', error => {
+    request.on('error', (error) => {
       reject(error);
     });
 
@@ -46,5 +48,3 @@ export const createTransferRecipient = ({ name, account_number, bank_code, curre
     request.end();
   });
 };
-
-export default createTransferRecipient;

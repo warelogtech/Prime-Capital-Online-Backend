@@ -776,3 +776,333 @@
 {"level":"info","message":"::1 - - [08/May/2025:18:05:25 +0000] \"GET /api/wallet/wallet/balance HTTP/1.1\" 404 30 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T18:05:25.047Z"}
 {"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/wallet/balance/8068526093","timestamp":"2025-05-08T18:05:38.353Z"}
 {"level":"info","message":"::1 - - [08/May/2025:20:15:13 +0000] \"GET /api/wallet/wallet/balance/8068526093 HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-08T20:15:13.560Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-09T18:38:54.529Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-09T18:39:00.639Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-09T18:39:00.648Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:39:13.326Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:39:13 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 100 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:39:13.603Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/inwardfundstransfer","timestamp":"2025-05-09T18:41:01.405Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:41:03 +0000] \"POST /api/inwardfundstransfer HTTP/1.1\" 201 874 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:41:03.170Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:41:09.636Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:41:10 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:41:10.014Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:50:39.767Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:50:39 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:50:39.944Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/trigger-loan-repayment","timestamp":"2025-05-09T18:50:58.787Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:50:59 +0000] \"POST /api/trigger-loan-repayment HTTP/1.1\" 200 60 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:50:59.107Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:08.249Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:08 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:08.976Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:10.943Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:11 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:11.462Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:13.307Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:13 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:13.609Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:14.962Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:15 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:15.454Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:16.592Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:16 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:16.968Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:18.223Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:18 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:18.574Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:19.790Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:20 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:20.147Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:21.405Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:21 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:21.724Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:22.972Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:23 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:23.653Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:24.892Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:25 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:25.245Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-09T18:51:26.385Z"}
+{"level":"info","message":"::1 - - [09/May/2025:18:51:26 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-09T18:51:26.710Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T15:54:03.435Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T15:54:08.880Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T15:54:08.903Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T16:10:41.086Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T16:10:46.357Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T16:10:46.361Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T16:32:41.668Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T16:32:46.665Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T16:32:46.685Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /webhook/paystack","timestamp":"2025-05-10T17:48:54.237Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:48:54 +0000] \"POST /webhook/paystack HTTP/1.1\" 400 18 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:48:54.255Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /paystack/recipient","timestamp":"2025-05-10T17:50:31.144Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:50:31 +0000] \"POST /paystack/recipient HTTP/1.1\" 404 158 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:50:31.149Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /webhook/recipient","timestamp":"2025-05-10T17:50:42.278Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:50:42 +0000] \"POST /webhook/recipient HTTP/1.1\" 404 157 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:50:42.283Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /webhook/paystack","timestamp":"2025-05-10T17:51:15.434Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:51:15 +0000] \"POST /webhook/paystack HTTP/1.1\" 400 18 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:51:15.437Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T17:53:14.833Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:53:14 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 1793 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:53:14.839Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/get-bank-code","timestamp":"2025-05-10T17:55:47.162Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-05-10T17:55:47.352Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:55:47 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 404 179 \"-\" \"-\"","timestamp":"2025-05-10T17:55:47.355Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:55:47 +0000] \"GET /api/get-bank-code HTTP/1.1\" 500 72 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:55:47.360Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/get-bank-code","timestamp":"2025-05-10T17:55:55.154Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-05-10T17:55:55.168Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:55:55 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 404 179 \"-\" \"-\"","timestamp":"2025-05-10T17:55:55.176Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:55:55 +0000] \"GET /api/get-bank-code HTTP/1.1\" 500 72 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:55:55.184Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/get-bank-code","timestamp":"2025-05-10T17:56:08.687Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/mobile-money-banks","timestamp":"2025-05-10T17:56:08.691Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:56:08 +0000] \"GET /api/paystack/paystack/mobile-money-banks HTTP/1.1\" 404 179 \"-\" \"-\"","timestamp":"2025-05-10T17:56:08.694Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:56:08 +0000] \"GET /api/get-bank-code HTTP/1.1\" 500 72 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:56:08.697Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/banks/get-bank-code","timestamp":"2025-05-10T17:57:53.342Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:57:53 +0000] \"GET /api/banks/get-bank-code HTTP/1.1\" 404 162 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:57:53.344Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/banks","timestamp":"2025-05-10T17:58:11.247Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:58:11 +0000] \"GET /api/banks HTTP/1.1\" 404 148 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:58:11.249Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/banks","timestamp":"2025-05-10T17:58:12.778Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:58:12 +0000] \"GET /api/banks HTTP/1.1\" 404 148 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:58:12.782Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/banks","timestamp":"2025-05-10T17:58:58.464Z"}
+{"level":"info","message":"::1 - - [10/May/2025:17:58:59 +0000] \"GET /api/paystack/banks HTTP/1.1\" 200 65306 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T17:58:59.313Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T18:04:01.074Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:04:01 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 1793 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:04:01.076Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T18:27:21.695Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T18:27:27.338Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T18:27:27.369Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T18:27:31.248Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:27:31 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 126 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:27:31.352Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T18:34:54.932Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T18:35:00.240Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T18:35:00.250Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T18:38:43.190Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:38:43 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 126 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:38:43.289Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T18:45:15.133Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T18:45:20.590Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T18:45:20.619Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T18:45:29.998Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:45:30 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 126 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:45:30.072Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T18:45:41.518Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:45:41 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 126 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:45:41.528Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T18:50:35.259Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T18:50:40.804Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T18:50:40.812Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T18:51:15.389Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T18:51:15.396Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:51:15 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 126 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:51:15.469Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T18:53:09.553Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T18:53:09.556Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:53:09 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 126 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:53:09.588Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T18:55:47.708Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T18:55:52.906Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T18:55:52.923Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/paystack/recipient","timestamp":"2025-05-10T18:57:33.703Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T18:57:33.706Z"}
+{"level":"info","message":"::1 - - [10/May/2025:18:57:33 +0000] \"POST /api/paystack/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T18:57:33.718Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T19:00:51.073Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T19:00:56.401Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T19:00:56.412Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T19:01:04.353Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T19:01:04.356Z"}
+{"level":"info","message":"::1 - - [10/May/2025:19:01:04 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T19:01:04.372Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T19:03:09.956Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T19:03:15.522Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T19:03:15.536Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T19:03:21.924Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T19:03:21.929Z"}
+{"level":"info","message":"::1 - - [10/May/2025:19:03:21 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T19:03:21.943Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T19:03:23.913Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T19:03:23.914Z"}
+{"level":"info","message":"::1 - - [10/May/2025:19:03:23 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T19:03:23.917Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T19:11:29.976Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T19:11:35.905Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T19:11:35.918Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T19:11:40.400Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T19:11:40.403Z"}
+{"level":"info","message":"::1 - - [10/May/2025:19:11:40 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T19:11:40.420Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-10T19:14:55.213Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-10T19:15:00.371Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-10T19:15:00.376Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T19:16:06.230Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T19:16:06.233Z"}
+{"level":"info","message":"::1 - - [10/May/2025:19:16:06 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T19:16:06.249Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T19:16:08.069Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T19:16:08.071Z"}
+{"level":"info","message":"::1 - - [10/May/2025:19:16:08 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T19:16:08.080Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-10T19:18:03.958Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-10T19:18:03.960Z"}
+{"level":"info","message":"::1 - - [10/May/2025:19:18:03 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-10T19:18:03.963Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/USERS","timestamp":"2025-05-11T10:02:43.929Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T10:02:43.930Z"}
+{"level":"info","message":"::1 - - [11/May/2025:10:02:45 +0000] \"GET /api/USERS HTTP/1.1\" 200 1877 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T10:02:45.128Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-11T10:33:13.064Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T10:33:13.079Z"}
+{"level":"info","message":"::1 - - [11/May/2025:10:33:13 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T10:33:13.106Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T10:39:44.053Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T10:39:49.006Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T10:39:49.030Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-11T10:40:34.958Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T10:40:34.961Z"}
+{"level":"info","message":"::1 - - [11/May/2025:10:40:34 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 500 126 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T10:40:34.975Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T10:43:48.810Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T10:43:54.124Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T10:43:54.146Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-11T10:43:59.955Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T10:43:59.958Z"}
+{"level":"info","message":"::1 - - [11/May/2025:10:43:59 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T10:43:59.970Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T10:54:52.090Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T10:54:57.643Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T10:54:57.668Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-11T10:55:40.123Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T10:55:40.127Z"}
+{"level":"info","message":"::1 - - [11/May/2025:10:55:40 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T10:55:40.140Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T11:30:52.468Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T11:30:57.456Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T11:30:57.465Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-11T11:33:07.556Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T11:33:07.567Z"}
+{"level":"info","message":"::1 - - [11/May/2025:11:33:07 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T11:33:07.614Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T11:40:25.600Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T11:40:30.894Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T11:40:30.900Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-11T11:40:43.944Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T11:40:43.946Z"}
+{"level":"info","message":"::1 - - [11/May/2025:11:40:43 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T11:40:43.958Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/paystack/recipient","timestamp":"2025-05-11T11:40:50.488Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T11:40:50.489Z"}
+{"level":"info","message":"::1 - - [11/May/2025:11:40:50 +0000] \"POST /api/paystack/recipient HTTP/1.1\" 400 37 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T11:40:50.493Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T11:42:09.392Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T11:42:09.393Z"}
+{"level":"info","message":"::1 - - [11/May/2025:11:42:09 +0000] \"POST /api/external/external-credit HTTP/1.1\" 201 374 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T11:42:09.606Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T11:56:30.013Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T11:56:42.836Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T11:56:42.848Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T11:56:44.980Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T11:56:44.982Z"}
+{"level":"info","message":"::1 - - [11/May/2025:11:56:45 +0000] \"POST /api/external/external-credit HTTP/1.1\" 201 374 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T11:56:45.192Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T12:05:38.484Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T12:05:38.485Z"}
+{"level":"info","message":"::1 - - [11/May/2025:12:05:38 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T12:05:38.674Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T12:05:56.607Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T12:05:56.608Z"}
+{"level":"info","message":"::1 - - [11/May/2025:12:05:56 +0000] \"POST /api/external/external-credit HTTP/1.1\" 201 374 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T12:05:56.778Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T12:06:04.396Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T12:06:04.397Z"}
+{"level":"info","message":"::1 - - [11/May/2025:12:06:04 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T12:06:04.557Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T14:27:21.421Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T14:27:26.087Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T14:27:26.100Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T14:28:09.092Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T14:28:09.094Z"}
+{"level":"info","message":"::1 - - [11/May/2025:14:28:09 +0000] \"POST /api/external/external-credit HTTP/1.1\" 404 30 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T14:28:09.285Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T14:45:24.817Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T14:45:30.635Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T14:45:30.652Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T14:45:38.202Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T14:45:38.205Z"}
+{"level":"info","message":"::1 - - [11/May/2025:14:45:38 +0000] \"POST /api/external/external-credit HTTP/1.1\" 401 31 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T14:45:38.219Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T14:53:16.318Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T14:53:16.319Z"}
+{"level":"info","message":"::1 - - [11/May/2025:14:53:16 +0000] \"POST /api/external/external-credit HTTP/1.1\" 401 31 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T14:53:16.323Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T15:30:00.471Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T15:30:05.564Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T15:30:05.570Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T15:31:48.079Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T15:31:48.081Z"}
+{"level":"info","message":"::1 - - [11/May/2025:15:31:48 +0000] \"POST /api/external/external-credit HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T15:31:48.095Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/login","timestamp":"2025-05-11T15:32:22.273Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"phoneNumber\":\"+2348148818612\",\"password\":\"Gimaro1234*\"}","timestamp":"2025-05-11T15:32:22.278Z"}
+{"level":"info","message":"::1 - - [11/May/2025:15:32:23 +0000] \"POST /api/login HTTP/1.1\" 200 424 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T15:32:23.322Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T15:33:02.607Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T15:33:02.612Z"}
+{"level":"info","message":"::1 - - [11/May/2025:15:33:02 +0000] \"POST /api/external/external-credit HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T15:33:02.615Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T15:33:05.715Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T15:33:05.716Z"}
+{"level":"info","message":"::1 - - [11/May/2025:15:33:05 +0000] \"POST /api/external/external-credit HTTP/1.1\" 401 27 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T15:33:05.718Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T15:33:22.087Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T15:33:22.088Z"}
+{"level":"info","message":"::1 - - [11/May/2025:15:33:22 +0000] \"POST /api/external/external-credit HTTP/1.1\" 401 31 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T15:33:22.090Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T15:46:03.970Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T15:46:09.013Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T15:46:09.041Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T15:46:15.896Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T15:46:15.905Z"}
+{"level":"info","message":"::1 - - [11/May/2025:15:46:17 +0000] \"POST /api/external/external-credit HTTP/1.1\" 500 89 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T15:46:17.149Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T15:53:41.533Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T15:53:46.595Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T15:53:46.602Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T15:55:06.648Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\"}","timestamp":"2025-05-11T15:55:06.652Z"}
+{"level":"info","message":"::1 - - [11/May/2025:15:55:08 +0000] \"POST /api/external/external-credit HTTP/1.1\" 500 61 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T15:55:08.377Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T16:01:32.912Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":1000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\",\"bank_code\":\"058\"}","timestamp":"2025-05-11T16:01:32.913Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:01:43 +0000] \"POST /api/external/external-credit HTTP/1.1\" 200 574 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:01:43.456Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/transfer/verify-otp","timestamp":"2025-05-11T16:03:04.572Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"transfer_code\":\"TRF_beut6hke23744ljh\",\"otp\":\"595791\"}","timestamp":"2025-05-11T16:03:04.574Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:03:05 +0000] \"POST /api/transfer/verify-otp HTTP/1.1\" 200 485 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:03:05.271Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:36:36.025Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:36:36.025Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:36:36 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:36:36.205Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:36:38.257Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:36:38.258Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:36:38 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:36:38.453Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:36:41.874Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:36:41.876Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:36:42 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:36:42.049Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:36:44.001Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:36:44.002Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:36:44 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:36:44.167Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:36:47.414Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:36:47.415Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:36:47 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:36:47.564Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:36:49.503Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:36:49.505Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:36:49 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:36:49.666Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T16:37:13.434Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":10000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\",\"bank_code\":\"058\"}","timestamp":"2025-05-11T16:37:13.435Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:37:15 +0000] \"POST /api/external/external-credit HTTP/1.1\" 200 575 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:37:15.906Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/transfer/verify-otp","timestamp":"2025-05-11T16:38:01.987Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"transfer_code\":\"TRF_je9brmz3goibulw9\",\"otp\":\"473760\"}","timestamp":"2025-05-11T16:38:01.987Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:38:02 +0000] \"POST /api/transfer/verify-otp HTTP/1.1\" 200 486 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:38:02.859Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:38:14.936Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:38:14.937Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:38:15 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:38:15.093Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T16:38:16.859Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T16:38:16.861Z"}
+{"level":"info","message":"::1 - - [11/May/2025:16:38:17 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T16:38:17.027Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T17:06:07.336Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T17:06:11.905Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T17:06:11.910Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T17:07:02.656Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":10000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\",\"bank_code\":\"058\"}","timestamp":"2025-05-11T17:07:02.659Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:07:05 +0000] \"POST /api/external/external-credit HTTP/1.1\" 200 574 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:07:05.094Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/transfer/verify-otp","timestamp":"2025-05-11T17:07:57.529Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"transfer_code\":\"TRF_q8w2pdux45iw7mk2\",\"otp\":\"654290\"}","timestamp":"2025-05-11T17:07:57.530Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:07:58 +0000] \"POST /api/transfer/verify-otp HTTP/1.1\" 200 486 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:07:58.595Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T17:08:11.621Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T17:08:11.622Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:08:11 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:08:11.789Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-11T17:20:03.173Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-11T17:20:08.339Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-11T17:20:08.358Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-11T17:20:14.850Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":10000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\",\"bank_code\":\"058\"}","timestamp":"2025-05-11T17:20:14.852Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:20:17 +0000] \"POST /api/external/external-credit HTTP/1.1\" 200 574 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:20:17.541Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/transfer/verify-otp","timestamp":"2025-05-11T17:21:08.984Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"transfer_code\":\"TRF_4rny3q1meytvprt1\",\"otp\":\"905992\"}","timestamp":"2025-05-11T17:21:08.986Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:21:10 +0000] \"POST /api/transfer/verify-otp HTTP/1.1\" 200 486 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:21:10.116Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T17:21:26.424Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T17:21:26.426Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:21:26 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:21:26.590Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T17:21:28.999Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T17:21:29.000Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:21:29 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:21:29.150Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/balance/8068526093","timestamp":"2025-05-11T17:21:33.298Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T17:21:33.298Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:21:33 +0000] \"GET /api/wallet/balance/8068526093 HTTP/1.1\" 200 101 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:21:33.440Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/transaction/8068526093","timestamp":"2025-05-11T17:22:06.344Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-11T17:22:06.345Z"}
+{"level":"info","message":"::1 - - [11/May/2025:17:22:07 +0000] \"GET /api/wallet/transaction/8068526093 HTTP/1.1\" 200 40890 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-11T17:22:07.053Z"}
+{"level":"info","message":"🚀 Server starting...","timestamp":"2025-05-12T18:18:52.430Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2025-05-12T18:18:57.735Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:5000","timestamp":"2025-05-12T18:18:57.746Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/transaction/8068526093","timestamp":"2025-05-12T18:19:12.440Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-12T18:19:12.446Z"}
+{"level":"info","message":"::1 - - [12/May/2025:18:19:13 +0000] \"GET /api/wallet/transaction/8068526093 HTTP/1.1\" 200 41786 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-12T18:19:13.331Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/wallet/credit-wallet","timestamp":"2025-05-12T18:26:42.006Z"}
+{"level":"info","message":"📦 Request Body Debug: undefined","timestamp":"2025-05-12T18:26:42.020Z"}
+{"level":"info","message":"::1 - - [12/May/2025:18:26:42 +0000] \"GET /api/wallet/credit-wallet HTTP/1.1\" 200 18796 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-12T18:26:42.320Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/external/external-credit","timestamp":"2025-05-12T18:30:49.149Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"reference\":\"txn_ref_12345678\",\"acct_no\":\"8068526093\",\"wallet_id\":\"6615ee21a7a8e88b5c444cde\",\"name\":\"Frederick Johnson\",\"email\":\"fredagabi@yahoo.com\",\"amount\":10000,\"description\":\"Manual test credit\",\"status\":\"success\",\"gateway\":\"Paystack\",\"bank_code\":\"058\"}","timestamp":"2025-05-12T18:30:49.151Z"}
+{"level":"info","message":"::1 - - [12/May/2025:18:30:52 +0000] \"POST /api/external/external-credit HTTP/1.1\" 200 574 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-12T18:30:52.235Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/transfer/verify-otp","timestamp":"2025-05-12T18:31:26.593Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"transfer_code\":\"TRF_4rny3q1meytvprt1\",\"otp\":\"905992\"}","timestamp":"2025-05-12T18:31:26.593Z"}
+{"level":"info","message":"::1 - - [12/May/2025:18:31:27 +0000] \"POST /api/transfer/verify-otp HTTP/1.1\" 200 141 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-12T18:31:27.158Z"}
+{"level":"info","message":"Incoming request from IP: ::1, URL: /api/transfer/verify-otp","timestamp":"2025-05-12T18:32:07.267Z"}
+{"level":"info","message":"📦 Request Body Debug: {\"transfer_code\":\"TRF_eeih77h7qchrjb2t\",\"otp\":\"905992\"}","timestamp":"2025-05-12T18:32:07.268Z"}
+{"level":"info","message":"::1 - - [12/May/2025:18:32:08 +0000] \"POST /api/transfer/verify-otp HTTP/1.1\" 200 128 \"-\" \"PostmanRuntime/7.43.4\"","timestamp":"2025-05-12T18:32:08.336Z"}

@@ -1,17 +1,21 @@
 import moment from 'moment';
-import mongoose from 'mongoose';
-import PurchaseRequest from '../models/PurchaseRequest.js';
 import walletController, { disburseWallet } from '../controllers/walletController.js';
 import Counter from '../models/Counter.js';
-import GLTransaction from '../models/glTransactions.js';
+
 import Wallet from '../models/wallet.js';
 import normalizePhoneNumber from '../utils/normalizePhone.js';
 import { createTransferRecipient } from '../services/createTransferRecipient.js';
+
+import mongoose from 'mongoose';
 import initiateTransfer from '../services/initiateTransfer.js';
 import getBankCode from '../services/getBankCode.js';
-
-// Import required modules
+import PurchaseRequest from '../models/PurchaseRequest.js';
+import GLTransaction from '../models/glTransactions.js';
 import https from 'https';
+import crypto from 'crypto';
+import dotenv from 'dotenv';
+
+
 
 // Function to verify transaction status
 export const verifyTransaction = (reference) => {
@@ -103,6 +107,7 @@ export const updateRequestStatus = async (req, res) => {
       return res.status(404).json({ message: "Purchase request not found" });
     }
 
+    // Update fields
     purchaseRequest.status = status;
     if (vendorAccountNumber) purchaseRequest.vendorAccountNumber = vendorAccountNumber;
     if (vendorBankName) purchaseRequest.vendorBankName = vendorBankName;
@@ -111,55 +116,72 @@ export const updateRequestStatus = async (req, res) => {
     if (status === 'Approved') {
       try {
         const bankCode = await getBankCode(purchaseRequest.vendorBankName);
-
         if (!bankCode) {
           return res.status(400).json({ message: "Invalid bank name or unable to retrieve bank code" });
         }
 
-        // Create Paystack recipient
-        const recipient = await createTransferRecipient({
-          name: purchaseRequest.vendorName || "Unnamed Vendor",
-          account_number: purchaseRequest.vendorAccountNumber,
-          bank_name: bankCode
+        const recipientCode = await new Promise((resolve, reject) => {
+          const params = JSON.stringify({
+            type: 'nuban',
+            name: purchaseRequest.vendorName || "Unnamed Vendor",
+            account_number: purchaseRequest.vendorAccountNumber,
+            bank_code: bankCode,
+            currency: 'NGN'
+          });
+
+          const options = {
+            hostname: 'api.paystack.co',
+            port: 443,
+            path: '/transferrecipient',
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}`,
+              'Content-Type': 'application/json'
+            }
+          };
+
+          const req = https.request(options, response => {
+            let data = '';
+            response.on('data', chunk => { data += chunk; });
+            response.on('end', () => {
+              const result = JSON.parse(data);
+              if (result.status && result.data.recipient_code) {
+                resolve(result.data.recipient_code);
+              } else {
+                reject(new Error(result.message || "Failed to create recipient"));
+              }
+            });
+          });
+
+          req.on('error', error => {
+            reject(error);
+          });
+
+          req.write(params);
+          req.end();
         });
 
-        if (!recipient?.data?.recipient_code) {
-          console.error("Paystack recipient creation failed:", recipient);
-          return res.status(500).json({
-            message: "Failed to create Paystack recipient",
-            recipient
-          });
-        }
-
-        // Initiate the transfer with Paystack
+        const reference = `PR-${Date.now()}-${crypto.randomBytes(4).toString('hex')}`;
         const transfer = await initiateTransfer(
-          recipient.data.recipient_code,
+          recipientCode,
           purchaseRequest.amount * 100,
-          `Payment for ${purchaseRequest.purchaseItem}`
+          `Payment for ${purchaseRequest.purchaseItem}`,
+          reference
         );
 
         if (!transfer.status) {
-          console.error("❌ Paystack transfer initiation failed:", transfer);
           return res.status(500).json({
             message: "Failed to initiate Paystack transfer",
             transfer
           });
         }
 
-        // After initiating the transfer, verify the transaction
-        const verificationResponse = await verifyTransaction(transfer.data.reference);
-
-        if (verificationResponse.status !== 'success') {
-          console.error('❌ Transfer verification failed:', verificationResponse);
-          return res.status(500).json({ message: 'Transfer verification failed', error: verificationResponse });
-        }
-
-        // Save transfer reference for tracking
-        purchaseRequest.reference = transfer.data.reference;
-        purchaseRequest.status = 'Paid'; // Update status after verification
+        // Save reference and update status
+        purchaseRequest.reference = reference;
+        purchaseRequest.status = 'Paid';
         await purchaseRequest.save();
 
-        // Log GL transaction
+        // Log GL Transaction
         const counter = await Counter.findByIdAndUpdate(
           { _id: 'txnId' },
           { $inc: { seq: 1 } },
@@ -184,19 +206,19 @@ export const updateRequestStatus = async (req, res) => {
 
         await glTransaction.save();
 
-        console.log("✅ Paystack transfer successful and verified:", transfer);
-        res.status(200).json({ message: "Purchase request updated and payment processed" });
+        console.log("✅ Paystack transfer successful and GL transaction saved.");
+        return res.status(200).json({ message: "Purchase request updated and payment processed" });
 
       } catch (error) {
-        console.error("❌ Error in Paystack transfer process:", error);
+        console.error("❌ Error processing payment:", error);
         return res.status(500).json({ message: "Transfer failed", error: error.message });
       }
     } else {
-      res.status(200).json({ message: "Purchase request updated" });
+      return res.status(200).json({ message: "Purchase request updated" });
     }
   } catch (error) {
     console.error("❌ Server error:", error);
-    res.status(500).json({ message: "Server error", error: error.message });
+    return res.status(500).json({ message: "Server error", error: error.message });
   }
 };
 

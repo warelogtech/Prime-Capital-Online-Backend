@@ -1,24 +1,27 @@
 import https from 'https';
 import dotenv from 'dotenv';
+import ExternalCredit from '../models/ExternalCredit.js'; // make sure .js is included if using ES Modules
 
-// Load environment variables from .env file
 dotenv.config();
 
 /**
- * Initiates a Paystack transfer to a recipient.
+ * Initiates a Paystack transfer and saves to ExternalCredit.
  *
- * @param {string} recipient - The recipient code (from Paystack).
+ * @param {string} recipient - The Paystack recipient code.
  * @param {number} amountKobo - Amount in Kobo (e.g. ₦5000 = 500000).
  * @param {string} reason - Reason for the transfer.
- * @returns {Promise<Object>} - Paystack response.
+ * @param {string} reference - Unique reference for the transaction.
+ * @param {object} extraData - Optional: Additional info for saving to DB (wallet_id, acct_no, name, email).
+ * @returns {Promise<Object>} - Paystack API response.
  */
-export const initiateTransfer = (recipient, amountKobo, reason) => {
+export const initiateTransfer = (recipient, amountKobo, reason, reference, extraData = {}) => {
   return new Promise((resolve, reject) => {
     const params = JSON.stringify({
       source: "balance",
       amount: amountKobo,
       recipient,
-      reason
+      reason,
+      reference
     });
 
     const options = {
@@ -42,16 +45,31 @@ export const initiateTransfer = (recipient, amountKobo, reason) => {
         data += chunk;
       });
 
-      res.on('end', () => {
+      res.on('end', async () => {
         try {
           const parsed = JSON.parse(data);
           console.log('📦 Paystack response:', parsed);
 
-          if (res.statusCode === 200) {
-            resolve(parsed);
-          } else {
-            reject(new Error(`Paystack API Error: ${parsed.message || 'Unknown error'}`));
+          if (!parsed.status || res.statusCode !== 200) {
+            return reject(new Error(`Transfer failed: ${parsed.message || 'Unknown error'}`));
           }
+
+          // ✅ Save to ExternalCredit DB
+          const credit = new ExternalCredit({
+            reference,
+            acct_no: extraData.acct_no,
+            wallet_id: extraData.wallet_id,
+            name: extraData.name,
+            email: extraData.email,
+            amount: amountKobo / 100, // convert Kobo to Naira
+            description: reason,
+            status: 'success',
+            gateway: 'Paystack'
+          });
+
+          await credit.save();
+
+          resolve(parsed);
         } catch (err) {
           reject(new Error('Invalid JSON response from Paystack'));
         }
@@ -67,6 +85,5 @@ export const initiateTransfer = (recipient, amountKobo, reason) => {
     req.end();
   });
 };
-
 
 export default initiateTransfer;

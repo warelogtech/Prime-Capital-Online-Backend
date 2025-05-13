@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const PurchaseRequestSchema = new mongoose.Schema({
+export const PurchaseRequestSchema = new mongoose.Schema({
   driverId: {
     type: String,
     ref: 'User',
